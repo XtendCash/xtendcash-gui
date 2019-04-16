@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -31,7 +31,7 @@ import QtQuick 2.2
 import QtQuick.Controls 1.2
 import QtQuick.Controls.Styles 1.2
 
-import "../components" as LokiComponents
+import "../components" as XtendcashComponents
 
 Item {
     id: datePicker
@@ -73,11 +73,11 @@ Item {
             anchors.top: parent.top
             anchors.topMargin: 2
             anchors.left: parent.left
-            font.family: LokiComponents.Style.fontLight.name
+            font.family: XtendcashComponents.Style.fontLight.name
             font.pixelSize: 14
             font.bold: false
             textFormat: Text.RichText
-            color: LokiComponents.Style.defaultFontColor
+            color: XtendcashComponents.Style.defaultFontColor
 
             MouseArea {
                 anchors.fill: parent
@@ -106,7 +106,7 @@ Item {
 
             border.color: {
                 if(datePicker.expanded) {
-                    return LokiComponents.Style.heroGreen;
+                    return XtendcashComponents.Style.heroGreen;
                 } else {
                     return Qt.rgba(255, 255, 255, 0.25);
                 }
@@ -172,9 +172,9 @@ Item {
                 id: dayInput
                 readOnly: true
                 width: 22
-                font.family: LokiComponents.Style.fontRegular.name
+                font.family: XtendcashComponents.Style.fontRegular.name
                 font.pixelSize: 14
-                color: datePicker.error ? errorColor : LokiComponents.Style.defaultFontColor
+                color: datePicker.error ? errorColor : XtendcashComponents.Style.defaultFontColor
                 maximumLength: 2
                 horizontalAlignment: TextInput.AlignHCenter
                 validator: IntValidator{bottom: 01; top: 31;}
@@ -195,9 +195,9 @@ Item {
             }
 
             Text {
-                font.family: LokiComponents.Style.fontRegular.name
+                font.family: XtendcashComponents.Style.fontRegular.name
                 font.pixelSize: 14
-                color: datePicker.error ? errorColor : LokiComponents.Style.defaultFontColor
+                color: datePicker.error ? errorColor : XtendcashComponents.Style.defaultFontColor
                 text: "-"
             }
 
@@ -205,9 +205,9 @@ Item {
                 id: monthInput
                 readOnly: true
                 width: 22
-                font.family: LokiComponents.Style.fontRegular.name
+                font.family: XtendcashComponents.Style.fontRegular.name
                 font.pixelSize: 14
-                color: datePicker.error ? errorColor : LokiComponents.Style.defaultFontColor
+                color: datePicker.error ? errorColor : XtendcashComponents.Style.defaultFontColor
                 maximumLength: 2
                 horizontalAlignment: TextInput.AlignHCenter
                 validator: IntValidator{bottom: 01; top: 12;}
@@ -227,18 +227,18 @@ Item {
             }
 
             Text {
-                font.family: LokiComponents.Style.fontRegular.name
+                font.family: XtendcashComponents.Style.fontRegular.name
                 font.pixelSize: 14
-                color: datePicker.error ? errorColor : LokiComponents.Style.defaultFontColor
+                color: datePicker.error ? errorColor : XtendcashComponents.Style.defaultFontColor
                 text: "-"
             }
 
             TextInput {
                 id: yearInput
                 width: 44
-                font.family: LokiComponents.Style.fontRegular.name
+                font.family: XtendcashComponents.Style.fontRegular.name
                 font.pixelSize: 14
-                color: datePicker.error ? errorColor : LokiComponents.Style.defaultFontColor
+                color: datePicker.error ? errorColor : XtendcashComponents.Style.defaultFontColor
                 maximumLength: 4
                 horizontalAlignment: TextInput.AlignHCenter
                 validator: IntValidator{bottom: 1000; top: 9999;}
@@ -299,7 +299,7 @@ Item {
                     Rectangle {
                         anchors.fill: parent
                         radius: parent.implicitHeight / 2
-                        color: dayArea.pressed && styleData.visibleMonth ? LokiComponents.Style.heroGreen : "transparent"
+                        color: dayArea.pressed && styleData.visibleMonth ? XtendcashComponents.Style.heroGreen : "transparent"
                     }
 
                     Text {
@@ -311,7 +311,7 @@ Item {
                         color: {
                             if(!styleData.visibleMonth) return "#DBDBDB"
                             if(dayArea.pressed) return "#FFFFFF"
-                            if(styleData.today) return LokiComponents.Style.heroGreen
+                            if(styleData.today) return XtendcashComponents.Style.heroGreen
                             return "#4A4848"
                         }
                     }

@@ -395,7 +395,7 @@
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="93"/>
-        <source>WARNING: Do not reuse your Loki keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+        <source>WARNING: Do not reuse your Xtendcash keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -625,8 +625,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="82"/>
-        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Kasimas jūsų kompiuteriu padeda sustiprinti Loki tinklą. Kuo daugiau žmonių kasa - tuo sunkiau atakuoti tinklą.&lt;br&gt; &lt;br&gt; Kasimas suteikia Jums mažą galimybę gauti šiek tiek Loki. Jūsų kompiuteris kurs &apos;hašus&apos; ir taip bandys atrasti blokų sprendimus. Jeigu rasite bloką, gausite atitinkamą atlygį. Sėkmės!</translation>
+        <source>Mining with your computer helps strengthen the Xtendcash network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Xtendcash. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Kasimas jūsų kompiuteriu padeda sustiprinti Xtendcash tinklą. Kuo daugiau žmonių kasa - tuo sunkiau atakuoti tinklą.&lt;br&gt; &lt;br&gt; Kasimas suteikia Jums mažą galimybę gauti šiek tiek Xtendcash. Jūsų kompiuteris kurs &apos;hašus&apos; ir taip bandys atrasti blokų sprendimus. Jeigu rasite bloką, gausite atitinkamą atlygį. Sėkmės!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="95"/>
@@ -882,13 +882,13 @@
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="138"/>
-        <source>With more Loki</source>
-        <translation>Su daugiau Loki</translation>
+        <source>With more Xtendcash</source>
+        <translation>Su daugiau Xtendcash</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="139"/>
-        <source>With not enough Loki</source>
-        <translation>Su nepakankamai Loki</translation>
+        <source>With not enough Xtendcash</source>
+        <translation>Su nepakankamai Xtendcash</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="142"/>
@@ -1056,7 +1056,7 @@
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="89"/>
-        <source>Embedded Loki version: </source>
+        <source>Embedded Xtendcash version: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1179,12 +1179,12 @@ Sena piniginės talpyklos rinkmena bus pervadinta ir vėliau galės būti atstat
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="232"/>
-        <source>Uses a third-party server to connect to the Loki network. Less secure, but easier on your computer.</source>
+        <source>Uses a third-party server to connect to the Xtendcash network. Less secure, but easier on your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="277"/>
-        <source>To find a remote node, type &apos;Loki remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <source>To find a remote node, type &apos;Xtendcash remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1245,8 +1245,8 @@ Sena piniginės talpyklos rinkmena bus pervadinta ir vėliau galės būti atstat
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="645"/>
-        <source>Embedded Loki version: </source>
-        <translation>Įterpta Loki versija: </translation>
+        <source>Embedded Xtendcash version: </source>
+        <translation>Įterpta Xtendcash versija: </translation>
     </message>
 </context>
 <context>
@@ -1347,8 +1347,8 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="97"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.</source>
-        <translation>Šis puslapis leidžia sąveikauti su bendrai naudojama žiedų duomenų baze. Ši duomenų bazė yra skirta naudoti Loki piniginėse, taip pat Loki klonų piniginėse, kurios pakartotinai naudoja Loki raktus.</translation>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by Xtendcash wallets as well as wallets from Xtendcash clones which reuse the Xtendcash keys.</source>
+        <translation>Šis puslapis leidžia sąveikauti su bendrai naudojama žiedų duomenų baze. Ši duomenų bazė yra skirta naudoti Xtendcash piniginėse, taip pat Xtendcash klonų piniginėse, kurios pakartotinai naudoja Xtendcash raktus.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="119"/>
@@ -1435,12 +1435,12 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="245"/>
-        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <source>In order to avoid nullifying the protection afforded by Xtendcash&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Xtendcash clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Xtendcash and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Xtendcash clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Xtendcash safely.&lt;br&gt;If you do not use a key-reusing Xtendcash clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="267"/>
-        <source>This records rings used by outputs spent on Loki on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <source>This records rings used by outputs spent on Xtendcash on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1958,8 +1958,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="618"/>
-        <source>Loki sent successfully</source>
-        <translation>Loki sėkmingai išsiųsti</translation>
+        <source>Xtendcash sent successfully</source>
+        <translation>Xtendcash sėkmingai išsiųsti</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="634"/>
@@ -2102,12 +2102,12 @@ Jei naudojate &quot;Išleidimo įrodymas&quot;, jums nereikia nurodyti gavėjo a
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Loki preferences</source>
-        <translation>Mes jau beveik baigėme.- liko tik keli Loki nustatymai</translation>
+        <source>We’re almost there - let’s just configure some Xtendcash preferences</source>
+        <translation>Mes jau beveik baigėme.- liko tik keli Xtendcash nustatymai</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Loki blockchain?</source>
+        <source>Kickstart the Xtendcash blockchain?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2122,8 +2122,8 @@ Jei naudojate &quot;Išleidimo įrodymas&quot;, jums nereikia nurodyti gavėjo a
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="140"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>Disko konservavimo režimas naudoja žymiai mažiau disko vietos, tačiau tokio paties pralaidumo kaip normalus &quot;Loki&quot;. Tačiau saugoti visą blokų grandinę naudinga &quot;Loki&quot; tinklo saugumui. Jei esate įrenginyje, kuriame yra ribota disko vieta, ši parinktis jums tinkamiausia.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Xtendcash instance. However, storing the full blockchain is beneficial to the security of the Xtendcash network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>Disko konservavimo režimas naudoja žymiai mažiau disko vietos, tačiau tokio paties pralaidumo kaip normalus &quot;Xtendcash&quot;. Tačiau saugoti visą blokų grandinę naudinga &quot;Xtendcash&quot; tinklo saugumui. Jei esate įrenginyje, kuriame yra ribota disko vieta, ši parinktis jums tinkamiausia.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="153"/>
@@ -2132,8 +2132,8 @@ Jei naudojate &quot;Išleidimo įrodymas&quot;, jums nereikia nurodyti gavėjo a
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="169"/>
-        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Kasimas apsaugo &quot;Loki&quot; tinklą, taip pat moka nedidelį atlygį už atliktą darbą. Ši parinktis leis kasti Loki, kai jūsų kompiuteris yra prijungtas prie maitinimo tinklo ir yra nenaudojamas. Jei tęsite darbą, jis nustos kasti.</translation>
+        <source>Mining secures the Xtendcash network, and also pays a small reward for the work done. This option will let Xtendcash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Kasimas apsaugo &quot;Xtendcash&quot; tinklą, taip pat moka nedidelį atlygį už atliktą darbą. Ši parinktis leis kasti Xtendcash, kai jūsų kompiuteris yra prijungtas prie maitinimo tinklo ir yra nenaudojamas. Jei tęsite darbą, jis nustos kasti.</translation>
     </message>
 </context>
 <context>
@@ -2164,8 +2164,8 @@ Jei naudojate &quot;Išleidimo įrodymas&quot;, jums nereikia nurodyti gavėjo a
     <name>WizardDaemonSettings</name>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="114"/>
-        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation>Tam, kad galėtumet komunikuoti Loki tinkle jums reikia piniginę prijungi prie jungties. Tam, kad užtikrinti geriausią privatumą rekomenduojame paleisti nuosavą jungtį.                          &lt;br&gt;&lt;br&gt;                        Jeigu neturite galimybės paleisti nuosavos jungties, galite jungti prie nutolusios jungties.</translation>
+        <source>To be able to communicate with the Xtendcash network your wallet needs to be connected to a Xtendcash node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation>Tam, kad galėtumet komunikuoti Xtendcash tinkle jums reikia piniginę prijungi prie jungties. Tam, kad užtikrinti geriausią privatumą rekomenduojame paleisti nuosavą jungtį.                          &lt;br&gt;&lt;br&gt;                        Jeigu neturite galimybės paleisti nuosavos jungties, galite jungti prie nutolusios jungties.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="126"/>
@@ -2197,8 +2197,8 @@ Jei naudojate &quot;Išleidimo įrodymas&quot;, jums nereikia nurodyti gavėjo a
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Loki development is solely supported by donations</source>
-        <translation>Loki vystymas yra remiamas tik aukomis</translation>
+        <source>Xtendcash development is solely supported by donations</source>
+        <translation>Xtendcash vystymas yra remiamas tik aukomis</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -2212,8 +2212,8 @@ Jei naudojate &quot;Išleidimo įrodymas&quot;, jums nereikia nurodyti gavėjo a
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
-        <translation>Už kiekvieną pavedimą taikomas nedidelė rinkliava. Ši parinktis leidžia pridėti papildomą sumą, kaip šios rinkliavos procentą prie jūsų pavedimo. Pvz., 50% automatinis rėmimas už pavedimo rinkliavą sudaro 0,005 XMR ir pridedant 0,0025 XMR, kad būtų remiama &quot;Loki&quot; plėtra.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Xtendcash development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Xtendcash development.</source>
+        <translation>Už kiekvieną pavedimą taikomas nedidelė rinkliava. Ši parinktis leidžia pridėti papildomą sumą, kaip šios rinkliavos procentą prie jūsų pavedimo. Pvz., 50% automatinis rėmimas už pavedimo rinkliavą sudaro 0,005 XMR ir pridedant 0,0025 XMR, kad būtų remiama &quot;Xtendcash&quot; plėtra.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2222,8 +2222,8 @@ Jei naudojate &quot;Išleidimo įrodymas&quot;, jums nereikia nurodyti gavėjo a
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="190"/>
-        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Kasimas apsaugo &quot;Loki&quot; tinklą, taip pat moka nedidelį atlygį už atliktą darbą. Ši parinktis leis kasti Loki, kai jūsų kompiuteris yra prijungtas prie maitinimo tinklo ir yra nenaudojamas. Jei tęsite darbą, jis nustos kasti.</translation>
+        <source>Mining secures the Xtendcash network, and also pays a small reward for the work done. This option will let Xtendcash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Kasimas apsaugo &quot;Xtendcash&quot; tinklą, taip pat moka nedidelį atlygį už atliktą darbą. Ši parinktis leis kasti Xtendcash, kai jūsų kompiuteris yra prijungtas prie maitinimo tinklo ir yra nenaudojamas. Jei tęsite darbą, jis nustos kasti.</translation>
     </message>
 </context>
 <context>
@@ -2315,8 +2315,8 @@ Jei naudojate &quot;Išleidimo įrodymas&quot;, jums nereikia nurodyti gavėjo a
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="367"/>
-        <source>USE LOKI</source>
-        <translation>NAUDOTI LOKI</translation>
+        <source>USE XTNC</source>
+        <translation>NAUDOTI XTNC</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="399"/>
@@ -2435,8 +2435,8 @@ Jei naudojate &quot;Išleidimo įrodymas&quot;, jums nereikia nurodyti gavėjo a
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="75"/>
-        <source>Welcome to Loki!</source>
-        <translation>Sveiki atvykę į Loki!</translation>
+        <source>Welcome to Xtendcash!</source>
+        <translation>Sveiki atvykę į Xtendcash!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
@@ -2525,8 +2525,8 @@ Jei naudojate &quot;Išleidimo įrodymas&quot;, jums nereikia nurodyti gavėjo a
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to Loki!</source>
-        <translation>Sveiki atvykę į Loki!</translation>
+        <source>Welcome to Xtendcash!</source>
+        <translation>Sveiki atvykę į Xtendcash!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="83"/>
@@ -2713,8 +2713,8 @@ Išlaidų adreso rodyklė: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="790"/>
-        <source>Loki sent successfully: %1 transaction(s) </source>
-        <translation>Loki sėkmingai išsiųsti: %1 operacija (-os) </translation>
+        <source>Xtendcash sent successfully: %1 transaction(s) </source>
+        <translation>Xtendcash sėkmingai išsiųsti: %1 operacija (-os) </translation>
     </message>
     <message>
         <location filename="../main.qml" line="830"/>
@@ -2737,8 +2737,8 @@ Išlaidų adreso rodyklė: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="864"/>
-        <source>This address received %1 loki, with %2 confirmation(s).</source>
-        <translation>Šis adresas gavo%1 Loki, su%2 patvirtinimu (-ais).</translation>
+        <source>This address received %1 xtendcash, with %2 confirmation(s).</source>
+        <translation>Šis adresas gavo%1 Xtendcash, su%2 patvirtinimu (-ais).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="882"/>
@@ -2812,8 +2812,8 @@ Išlaidų adreso rodyklė: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1785"/>
-        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Yra nauja loki-wallet-gui versija: %1&lt;br&gt;%2</translation>
+        <source>New version of xtendcash-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Yra nauja xtendcash-wallet-gui versija: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1819"/>
@@ -2854,8 +2854,8 @@ Išlaidų adreso rodyklė: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="861"/>
-        <source>This address received %1 loki, but the transaction is not yet mined</source>
-        <translation>Šis adresas gavo%1 Loki, tačiau pavedimas dar nėra iškastas</translation>
+        <source>This address received %1 xtendcash, but the transaction is not yet mined</source>
+        <translation>Šis adresas gavo%1 Xtendcash, tačiau pavedimas dar nėra iškastas</translation>
     </message>
     <message>
         <location filename="../main.qml" line="875"/>
@@ -2884,7 +2884,7 @@ Išlaidų adreso rodyklė: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1287"/>
-        <source>Loki</source>
+        <source>Xtendcash</source>
         <translation>Bitlitas</translation>
     </message>
     <message>

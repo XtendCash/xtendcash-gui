@@ -480,8 +480,8 @@
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="93"/>
-        <source>WARNING: Do not reuse your Loki keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
-        <translation>UYARI: EĞER ayrılma(fork) anahtarı yeniden kullanma sorunu giderme özelliği içermiyorsa, Loki anahtarlarınızı bu tip ayrılma(fork)da kullanmayın. Aksi halde gizliliğinize zarar verirsiniz.</translation>
+        <source>WARNING: Do not reuse your Xtendcash keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+        <translation>UYARI: EĞER ayrılma(fork) anahtarı yeniden kullanma sorunu giderme özelliği içermiyorsa, Xtendcash anahtarlarınızı bu tip ayrılma(fork)da kullanmayın. Aksi halde gizliliğinize zarar verirsiniz.</translation>
     </message>
 <message>
         <location filename="../pages/Keys.qml" line="183"/>
@@ -772,8 +772,8 @@
         <translation>Madenciliğe başlamadan önce daemon senkronize olmalı</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="vanished">Bilgisayarınızla birlikte madencilik yapmak Loki ağını güçlendirmeye yardımcı olur. İnsanların benimsediği derecede, ağın saldırıya ne kadar zorlaşırsa, ve insanlara biraz yardımcı olur. &lt;br&gt; &lt;br&gt; Madencilik ayrıca bazı Loki kazanmak için küçük bir şans verir. Bilgisayarınız blok çözümleri arayan karma değerler oluşturacaktır. Bir blok bulursanız, size verilen ödülleri alacaksınız. İyi şanslar!</translation>
+        <source>Mining with your computer helps strengthen the Xtendcash network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Xtendcash. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="vanished">Bilgisayarınızla birlikte madencilik yapmak Xtendcash ağını güçlendirmeye yardımcı olur. İnsanların benimsediği derecede, ağın saldırıya ne kadar zorlaşırsa, ve insanlara biraz yardımcı olur. &lt;br&gt; &lt;br&gt; Madencilik ayrıca bazı Xtendcash kazanmak için küçük bir şans verir. Bilgisayarınız blok çözümleri arayan karma değerler oluşturacaktır. Bir blok bulursanız, size verilen ödülleri alacaksınız. İyi şanslar!</translation>
     </message>
     <message>
         <source>CPU threads</source>
@@ -813,7 +813,7 @@
 </message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
-        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <source>Mining with your computer helps strengthen the Xtendcash network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Xtendcash. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation type="unfinished"></translation>
     </message>
 <message>
@@ -1115,13 +1115,13 @@
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="138"/>
-        <source>With more Loki</source>
-        <translation>Daha fazla Loki ile</translation>
+        <source>With more Xtendcash</source>
+        <translation>Daha fazla Xtendcash ile</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="139"/>
-        <source>With not enough Loki</source>
-        <translation>Yeterli Loki olmadan</translation>
+        <source>With not enough Xtendcash</source>
+        <translation>Yeterli Xtendcash olmadan</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="142"/>
@@ -1384,8 +1384,8 @@
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="89"/>
-        <source>Embedded Loki version: </source>
-        <translation>Gömülü Loki sürümü: </translation>
+        <source>Embedded Xtendcash version: </source>
+        <translation>Gömülü Xtendcash sürümü: </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="118"/>
@@ -1533,12 +1533,12 @@ Aşağıdaki bilgiler silinecek
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="232"/>
-        <source>Uses a third-party server to connect to the Loki network. Less secure, but easier on your computer.</source>
+        <source>Uses a third-party server to connect to the Xtendcash network. Less secure, but easier on your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="277"/>
-        <source>To find a remote node, type &apos;Loki remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <source>To find a remote node, type &apos;Xtendcash remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1547,13 +1547,13 @@ Aşağıdaki bilgiler silinecek
         <translation>Yerel Düğümü Durdur</translation>
     </message>
     <message>
-        <source>Uses a third-party server to connect to the Loki network. Less secure, but easier on your computer.</source>
-        <translation>Loki ağına bağlanmak için üçüncü parti sunucu kullanır. Daha az güvenli, ama bilgasayarınıza daha az zorlar.</translation>
+        <source>Uses a third-party server to connect to the Xtendcash network. Less secure, but easier on your computer.</source>
+        <translation>Xtendcash ağına bağlanmak için üçüncü parti sunucu kullanır. Daha az güvenli, ama bilgasayarınıza daha az zorlar.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="277"/>
-        <source>To find a remote node, type &apos;Loki remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
-        <translation>Uzak düğüm bulmak için, göde arama motorunuza &apos;Loki remote node&apos; girin. Lütfen düğümün güvenilir bir üçümcü parti olduğundan emin olun.</translation>
+        <source>To find a remote node, type &apos;Xtendcash remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <translation>Uzak düğüm bulmak için, göde arama motorunuza &apos;Xtendcash remote node&apos; girin. Lütfen düğümün güvenilir bir üçümcü parti olduğundan emin olun.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="291"/>
@@ -1590,8 +1590,8 @@ Aşağıdaki bilgiler silinecek
         <translation type="vanished">GUI sürümü: </translation>
     </message>
     <message>
-        <source>Embedded Loki version: </source>
-        <translation type="vanished">Gömülü Loki sürümü: </translation>
+        <source>Embedded Xtendcash version: </source>
+        <translation type="vanished">Gömülü Xtendcash sürümü: </translation>
     </message>
     <message>
         <source>Wallet creation height: </source>
@@ -1764,7 +1764,7 @@ Eski cüzdan önbellek dosyası yeniden adlandırılacak ve daha sonra geri yük
 </message>
     <message>
         <location filename="../pages/Settings.qml" line="565"/>
-        <source>Embedded Loki Version: </source>
+        <source>Embedded Xtendcash Version: </source>
         <translation type="unfinished"></translation>
     </message>
 <message>
@@ -1943,8 +1943,8 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="97"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.</source>
-        <translation>Bu sayfa paylaşılan halka veritabanı ile etkileşim içindir. Bu veritabanı Loki ve Loki anahtarlarını kullanan Loki klonlarının cüzdanları içindir.</translation>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by Xtendcash wallets as well as wallets from Xtendcash clones which reuse the Xtendcash keys.</source>
+        <translation>Bu sayfa paylaşılan halka veritabanı ile etkileşim içindir. Bu veritabanı Xtendcash ve Xtendcash anahtarlarını kullanan Xtendcash klonlarının cüzdanları içindir.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="119"/>
@@ -2026,12 +2026,12 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="245"/>
-        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>Loki halka imzalarının getirdiği korumanın boşa gitmemesi için, bir çıktı farklı blok zincirlerinde farklı halkalar ile harcanmamalıdır. Normalde endişelenecek bir durum olmamakla birlikte, anahtarı yeniden kullanan Loki klonu mevcut çıktıları kullanmanıza izin verdiğinde sorun olur. Bu durumda, bu mevcut çıktıların her iki zincirde de aynı halkaları kullandığına emin olmalısınız.&lt;br&gt;Bu koruma, Loki ve herhangi bir, aktif olarak gizliliğinize sızmaya çalışmayan, anahtarı yeniden kullanan yazılımda kendiliğinden yapılır.&lt;br&gt; Eğer siz de anahtarı yeniden kullanan Loki klonu kullanıyorsanız, ve bu klon bu korumayı içermiyor ise, önce klonda harcayarak, sonra bu sayfadaki halkayı elle ekleyerek işleminizin güvenleğini sağlayabilirsiniz.&lt;br&gt;</translation>
+        <source>In order to avoid nullifying the protection afforded by Xtendcash&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Xtendcash clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Xtendcash and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Xtendcash clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Xtendcash safely.&lt;br&gt;If you do not use a key-reusing Xtendcash clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation>Xtendcash halka imzalarının getirdiği korumanın boşa gitmemesi için, bir çıktı farklı blok zincirlerinde farklı halkalar ile harcanmamalıdır. Normalde endişelenecek bir durum olmamakla birlikte, anahtarı yeniden kullanan Xtendcash klonu mevcut çıktıları kullanmanıza izin verdiğinde sorun olur. Bu durumda, bu mevcut çıktıların her iki zincirde de aynı halkaları kullandığına emin olmalısınız.&lt;br&gt;Bu koruma, Xtendcash ve herhangi bir, aktif olarak gizliliğinize sızmaya çalışmayan, anahtarı yeniden kullanan yazılımda kendiliğinden yapılır.&lt;br&gt; Eğer siz de anahtarı yeniden kullanan Xtendcash klonu kullanıyorsanız, ve bu klon bu korumayı içermiyor ise, önce klonda harcayarak, sonra bu sayfadaki halkayı elle ekleyerek işleminizin güvenleğini sağlayabilirsiniz.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="267"/>
-        <source>This records rings used by outputs spent on Loki on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <source>This records rings used by outputs spent on Xtendcash on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
         <translation>Bu, anahtarı yeniden kullanan zincirde harcanan çıktılarla kullanılan halkaları kaydeder, böylece aynı halka gizlilik sorunlarını önlemek için yeniden kullanılabilir.</translation>
     </message>
     <message>
@@ -2480,7 +2480,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="550"/>
-        <source>Loki sent successfully</source>
+        <source>Xtendcash sent successfully</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2504,8 +2504,8 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="622"/>
-        <source>Loki sent successfully</source>
-        <translation>Loki başarı ile gönderildi</translation>
+        <source>Xtendcash sent successfully</source>
+        <translation>Xtendcash başarı ile gönderildi</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="421"/>
@@ -2827,12 +2827,12 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
-        <source>We’re almost there - let’s just configure some Loki preferences</source>
+        <source>We’re almost there - let’s just configure some Xtendcash preferences</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="98"/>
-        <source>Kickstart the Loki blockchain?</source>
+        <source>Kickstart the Xtendcash blockchain?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2847,17 +2847,17 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="141"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Xtendcash instance. However, storing the full blockchain is beneficial to the security of the Xtendcash network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="170"/>
-        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Xtendcash network, and also pays a small reward for the work done. This option will let Xtendcash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">Disk koruma modu, normal bir Loki örneğiyle aynı disk alanı genişliğini, ancak aynı miktarda bant genişliğini kullanır. Bununla birlikte, tam blok zincirin depolanması, Loki ağının güvenliğine yararlıdır. Sınırlı disk alanı olan bir cihazdaysanız, bu seçenek sizin için uygundur.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Xtendcash instance. However, storing the full blockchain is beneficial to the security of the Xtendcash network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation type="vanished">Disk koruma modu, normal bir Xtendcash örneğiyle aynı disk alanı genişliğini, ancak aynı miktarda bant genişliğini kullanır. Bununla birlikte, tam blok zincirin depolanması, Xtendcash ağının güvenliğine yararlıdır. Sınırlı disk alanı olan bir cihazdaysanız, bu seçenek sizin için uygundur.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2865,8 +2865,8 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <translation>Arka plan madenciliğine izin verilsin mi?</translation>
     </message>
     <message>
-        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Madencilik, Loki ağını güvence altına alır ve yapılan iş için küçük bir ödül de verir. Bu seçenek, bilgisayarınız ana güçte iken ve boşta olduğunda Loki&apos;ya izin verir. Çalışmaya devam ettiğinizde madenciliği durduracaktır.</translation>
+        <source>Mining secures the Xtendcash network, and also pays a small reward for the work done. This option will let Xtendcash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Madencilik, Xtendcash ağını güvence altına alır ve yapılan iş için küçük bir ödül de verir. Bu seçenek, bilgisayarınız ana güçte iken ve boşta olduğunda Xtendcash&apos;ya izin verir. Çalışmaya devam ettiğinizde madenciliği durduracaktır.</translation>
     </message>
 </context>
 <context>
@@ -2900,12 +2900,12 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
 <context>
     <name>WizardDaemonSettings</name>
     <message>
-        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation type="vanished">Loki ağıyla iletişim kurabilmek için cüzdanınızın bir Loki düğümüne bağlı olması gerekir. En iyi gizlilik için kendi düğümünü çalıştırmanız önerilir. Kendi düğümünü çalıştırma seçeneğine sahip değilseniz, uzaktaki bir düğüme bağlanma seçeneği vardır.</translation>
+        <source>To be able to communicate with the Xtendcash network your wallet needs to be connected to a Xtendcash node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation type="vanished">Xtendcash ağıyla iletişim kurabilmek için cüzdanınızın bir Xtendcash düğümüne bağlı olması gerekir. En iyi gizlilik için kendi düğümünü çalıştırmanız önerilir. Kendi düğümünü çalıştırma seçeneğine sahip değilseniz, uzaktaki bir düğüme bağlanma seçeneği vardır.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="113"/>
-        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <source>To be able to communicate with the Xtendcash network your wallet needs to be connected to a Xtendcash node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2946,12 +2946,12 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Loki development is solely supported by donations</source>
-        <translation type="vanished">Loki gelişimi sadece bağışlarla destekleniyor</translation>
+        <source>Xtendcash development is solely supported by donations</source>
+        <translation type="vanished">Xtendcash gelişimi sadece bağışlarla destekleniyor</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
-        <source>Loki development is solely supported by donations</source>
+        <source>Xtendcash development is solely supported by donations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2966,8 +2966,8 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
-        <translation>Her işlem için küçük bir işlem ücreti alınır. Bu seçenek, Loki&apos;nun geliştirilmesini desteklemek için işleminize, bu ücretin bir yüzdesi olarak ek bir miktar eklemenize izin verir. Örneğin 50% otomatik bağış, 0.005 XMR işlem ücreti alır ve Loki gelişimini desteklemek için 0.0025 XMR ekler.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Xtendcash development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Xtendcash development.</source>
+        <translation>Her işlem için küçük bir işlem ücreti alınır. Bu seçenek, Xtendcash&apos;nun geliştirilmesini desteklemek için işleminize, bu ücretin bir yüzdesi olarak ek bir miktar eklemenize izin verir. Örneğin 50% otomatik bağış, 0.005 XMR işlem ücreti alır ve Xtendcash gelişimini desteklemek için 0.0025 XMR ekler.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2975,8 +2975,8 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <translation>Arka plan madenciliğine izin verilsin mi?</translation>
     </message>
     <message>
-        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Madencilik, Loki ağını güvence altına alır ve yapılan iş için küçük bir ödül de verir. Bu seçenek, bilgisayarınız ana güçte iken ve boşta kaldığında Loki&apos;ya izin verir. Çalışmaya devam ettiğinizde madenciliği durduracaktır.</translation>
+        <source>Mining secures the Xtendcash network, and also pays a small reward for the work done. This option will let Xtendcash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Madencilik, Xtendcash ağını güvence altına alır ve yapılan iş için küçük bir ödül de verir. Bu seçenek, bilgisayarınız ana güçte iken ve boşta kaldığında Xtendcash&apos;ya izin verir. Çalışmaya devam ettiğinizde madenciliği durduracaktır.</translation>
     </message>
 </context>
 <context>
@@ -3074,12 +3074,12 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <translation type="vanished">Cüzdan yolunda veya hesap adında ASCII olmayan karakterlere izin verilmiyor</translation>
     </message>
     <message>
-        <source>USE LOKI</source>
-        <translation type="vanished">LOKI KULLANIN</translation>
+        <source>USE XTNC</source>
+        <translation type="vanished">XTNC KULLANIN</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
-        <source>USE LOKI</source>
+        <source>USE XTNC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3215,8 +3215,8 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Loki!</source>
-        <translation type="vanished">Loki&apos;ya hoşgeldiniz!</translation>
+        <source>Welcome to Xtendcash!</source>
+        <translation type="vanished">Xtendcash&apos;ya hoşgeldiniz!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="85"/>
@@ -3229,7 +3229,7 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="75"/>
-        <source>Welcome To Loki!</source>
+        <source>Welcome To Xtendcash!</source>
         <translation type="unfinished"></translation>
     </message>
 <message>
@@ -3326,12 +3326,12 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Loki!</source>
-        <translation type="vanished">Loki&apos;ya hoşgeldiniz!</translation>
+        <source>Welcome to Xtendcash!</source>
+        <translation type="vanished">Xtendcash&apos;ya hoşgeldiniz!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
-        <source>Welcome To Loki!</source>
+        <source>Welcome To Xtendcash!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3523,8 +3523,8 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="788"/>
-        <source>Loki sent successfully: %1 transaction(s) </source>
-        <translation>Loki başarı ile gönderildi: %1 işlem</translation>
+        <source>Xtendcash sent successfully: %1 transaction(s) </source>
+        <translation>Xtendcash başarı ile gönderildi: %1 işlem</translation>
     </message>
     <message>
         <source>
@@ -3571,8 +3571,8 @@ Address: </source>
         <translation>Kötü imza</translation>
     </message>
     <message>
-        <source>This address received %1 loki, with %2 confirmation(s).</source>
-        <translation type="vanished">Bu adres, %2 onay (lar) ile %1 loki aldı.</translation>
+        <source>This address received %1 xtendcash, with %2 confirmation(s).</source>
+        <translation type="vanished">Bu adres, %2 onay (lar) ile %1 xtendcash aldı.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="868"/>
@@ -3627,7 +3627,7 @@ Address: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1298"/>
-        <source>Loki</source>
+        <source>Xtendcash</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3651,8 +3651,8 @@ Address: </source>
         <translation>Daemon&apos;u durdur</translation>
     </message>
     <message>
-        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation type="vanished">Loki-wallet-gui&apos;nin yeni sürümü mevcut: %1&lt;br&gt;%2</translation>
+        <source>New version of xtendcash-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation type="vanished">Xtendcash-wallet-gui&apos;nin yeni sürümü mevcut: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1819"/>
@@ -3698,8 +3698,8 @@ Address: </source>
         <translation>İşlem dosyaya kaydedildi: %1</translation>
     </message>
     <message>
-        <source>This address received %1 loki, but the transaction is not yet mined</source>
-        <translation type="vanished">Bu adres %1 loki aldı, ancak işlem henüz çıkarılmadı</translation>
+        <source>This address received %1 xtendcash, but the transaction is not yet mined</source>
+        <translation type="vanished">Bu adres %1 xtendcash aldı, ancak işlem henüz çıkarılmadı</translation>
     </message>
     <message>
         <location filename="../main.qml" line="861"/>
@@ -3727,8 +3727,8 @@ Address: </source>
         <translation>Program kurulum sihirbazı</translation>
     </message>
     <message>
-        <source>Loki</source>
-        <translation type="vanished">Loki</translation>
+        <source>Xtendcash</source>
+        <translation type="vanished">Xtendcash</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1454"/>

@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -28,9 +28,9 @@
 // THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import QtQuick 2.0
-import LokiComponents.Wallet 1.0
+import XtendcashComponents.Wallet 1.0
 
-import "../components" as LokiComponents
+import "../components" as XtendcashComponents
 
 Rectangle {
     id: item
@@ -64,7 +64,7 @@ Rectangle {
             id: progressText
             anchors.top: parent.top
             anchors.topMargin: 6
-            font.family: LokiComponents.Style.fontMedium.name
+            font.family: XtendcashComponents.Style.fontMedium.name
             font.pixelSize: 13 * scaleRatio
             font.bold: true
             color: "white"
@@ -77,7 +77,7 @@ Rectangle {
             anchors.top: parent.top
             anchors.topMargin: 6
             anchors.right: parent.right
-            font.family: LokiComponents.Style.fontMedium.name
+            font.family: XtendcashComponents.Style.fontMedium.name
             font.pixelSize: 13 * scaleRatio
             font.bold: true
             color: "white"
@@ -105,7 +105,7 @@ Rectangle {
                 width: (maxWidth * fillLevel) / 100
                 radius: 8
                 // could change color based on progressbar status; if(item.fillLevel < 99 )
-                color: LokiComponents.Style.heroGreen
+                color: XtendcashComponents.Style.heroGreen
             }
 
             Rectangle {

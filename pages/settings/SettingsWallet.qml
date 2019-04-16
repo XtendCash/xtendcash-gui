@@ -32,7 +32,7 @@ import QtQuick.Controls 2.0
 import QtQuick.Dialogs 1.2
 
 import "../../js/Utils.js" as Utils
-import "../../components" as LokiComponents
+import "../../components" as XtendcashComponents
 
 Rectangle {
     color: "transparent"
@@ -55,8 +55,8 @@ Rectangle {
             Layout.preferredHeight: 1 * scaleRatio
             Layout.fillWidth: true
             Layout.bottomMargin: 8 * scaleRatio
-            color: LokiComponents.Style.dividerColor
-            opacity: LokiComponents.Style.dividerOpacity
+            color: XtendcashComponents.Style.dividerColor
+            opacity: XtendcashComponents.Style.dividerOpacity
         }
 
         GridLayout {
@@ -75,15 +75,15 @@ Rectangle {
                     Layout.topMargin: 8 * scaleRatio
                     color: "white"
                     font.bold: true
-                    font.family: LokiComponents.Style.fontRegular.name
+                    font.family: XtendcashComponents.Style.fontRegular.name
                     font.pixelSize: 16 * scaleRatio
                     text: qsTr("Close this wallet") + translationManager.emptyString
                 }
 
                 TextArea {
                     Layout.fillWidth: true
-                    color: LokiComponents.Style.dimmedFontColor
-                    font.family: LokiComponents.Style.fontRegular.name
+                    color: XtendcashComponents.Style.dimmedFontColor
+                    font.family: XtendcashComponents.Style.fontRegular.name
                     font.pixelSize: 14 * scaleRatio
                     horizontalAlignment: TextInput.AlignLeft
                     selectByMouse: false
@@ -115,14 +115,14 @@ Rectangle {
                     height: 24 * scaleRatio
                     anchors.verticalCenter: parent.verticalCenter
                     anchors.horizontalCenter: parent.horizontalCenter
-                    color: LokiComponents.Style.buttonBackgroundColor
+                    color: XtendcashComponents.Style.buttonBackgroundColor
 
                     Text {
                         id: closeWalletText
                         anchors.verticalCenter: parent.verticalCenter
                         anchors.horizontalCenter: parent.horizontalCenter
-                        color: LokiComponents.Style.defaultFontColor
-                        font.family: LokiComponents.Style.fontRegular.name
+                        color: XtendcashComponents.Style.defaultFontColor
+                        font.family: XtendcashComponents.Style.fontRegular.name
                         font.pixelSize: 14 * scaleRatio
                         font.bold: true
                         text: qsTr("Close Wallet") + translationManager.emptyString
@@ -145,8 +145,8 @@ Rectangle {
             Layout.fillWidth: true
             Layout.topMargin: 8 * scaleRatio
             Layout.bottomMargin: 8 * scaleRatio
-            color: LokiComponents.Style.dividerColor
-            opacity: LokiComponents.Style.dividerOpacity
+            color: XtendcashComponents.Style.dividerColor
+            opacity: XtendcashComponents.Style.dividerOpacity
         }
 
         GridLayout {
@@ -165,15 +165,15 @@ Rectangle {
                     Layout.topMargin: 8 * scaleRatio
                     color: "white"
                     font.bold: true
-                    font.family: LokiComponents.Style.fontRegular.name
+                    font.family: XtendcashComponents.Style.fontRegular.name
                     font.pixelSize: 16 * scaleRatio
                     text: qsTr("Create a view-only wallet") + translationManager.emptyString
                 }
 
                 TextArea {
                     Layout.fillWidth: true
-                    color: LokiComponents.Style.dimmedFontColor
-                    font.family: LokiComponents.Style.fontRegular.name
+                    color: XtendcashComponents.Style.dimmedFontColor
+                    font.family: XtendcashComponents.Style.fontRegular.name
                     font.pixelSize: 14 * scaleRatio
                     horizontalAlignment: TextInput.AlignLeft
                     selectByMouse: false
@@ -205,14 +205,14 @@ Rectangle {
                     height: 24 * scaleRatio
                     anchors.verticalCenter: parent.verticalCenter
                     anchors.horizontalCenter: parent.horizontalCenter
-                    color: LokiComponents.Style.buttonBackgroundColor
+                    color: XtendcashComponents.Style.buttonBackgroundColor
 
                     Text {
                         id: createViewOnlyText
                         anchors.verticalCenter: parent.verticalCenter
                         anchors.horizontalCenter: parent.horizontalCenter
-                        color: LokiComponents.Style.defaultFontColor
-                        font.family: LokiComponents.Style.fontRegular.name
+                        color: XtendcashComponents.Style.defaultFontColor
+                        font.family: XtendcashComponents.Style.fontRegular.name
                         font.pixelSize: 14 * scaleRatio
                         font.bold: true
                         text: qsTr("Create Wallet") + translationManager.emptyString
@@ -235,8 +235,8 @@ Rectangle {
             Layout.fillWidth: true
             Layout.topMargin: 8 * scaleRatio
             Layout.bottomMargin: 8 * scaleRatio
-            color: LokiComponents.Style.dividerColor
-            opacity: LokiComponents.Style.dividerOpacity
+            color: XtendcashComponents.Style.dividerColor
+            opacity: XtendcashComponents.Style.dividerOpacity
         }
 
         GridLayout {
@@ -255,15 +255,15 @@ Rectangle {
                     Layout.topMargin: 8 * scaleRatio
                     color: "white"
                     font.bold: true
-                    font.family: LokiComponents.Style.fontRegular.name
+                    font.family: XtendcashComponents.Style.fontRegular.name
                     font.pixelSize: 16 * scaleRatio
                     text: qsTr("Show Seed & Keys") + translationManager.emptyString
                 }
 
                 TextArea {
                     Layout.fillWidth: true
-                    color: LokiComponents.Style.dimmedFontColor
-                    font.family: LokiComponents.Style.fontRegular.name
+                    color: XtendcashComponents.Style.dimmedFontColor
+                    font.family: XtendcashComponents.Style.fontRegular.name
                     font.pixelSize: 14 * scaleRatio
                     horizontalAlignment: TextInput.AlignLeft
                     selectByMouse: false
@@ -295,14 +295,14 @@ Rectangle {
                     height: 24 * scaleRatio
                     anchors.verticalCenter: parent.verticalCenter
                     anchors.horizontalCenter: parent.horizontalCenter
-                    color: LokiComponents.Style.buttonBackgroundColor
+                    color: XtendcashComponents.Style.buttonBackgroundColor
 
                     Text {
                         id: showSeedText
                         anchors.verticalCenter: parent.verticalCenter
                         anchors.horizontalCenter: parent.horizontalCenter
-                        color: LokiComponents.Style.defaultFontColor
-                        font.family: LokiComponents.Style.fontRegular.name
+                        color: XtendcashComponents.Style.defaultFontColor
+                        font.family: XtendcashComponents.Style.fontRegular.name
                         font.pixelSize: 14 * scaleRatio
                         font.bold: true
                         text: qsTr("Show Seed") + translationManager.emptyString
@@ -323,8 +323,8 @@ Rectangle {
             Layout.fillWidth: true
             Layout.topMargin: 8 * scaleRatio
             Layout.bottomMargin: 8 * scaleRatio
-            color: LokiComponents.Style.dividerColor
-            opacity: LokiComponents.Style.dividerOpacity
+            color: XtendcashComponents.Style.dividerColor
+            opacity: XtendcashComponents.Style.dividerOpacity
         }
 
         GridLayout {
@@ -343,15 +343,15 @@ Rectangle {
                     Layout.topMargin: 8 * scaleRatio
                     color: "white"
                     font.bold: true
-                    font.family: LokiComponents.Style.fontRegular.name
+                    font.family: XtendcashComponents.Style.fontRegular.name
                     font.pixelSize: 16 * scaleRatio
                     text: qsTr("Rescan Wallet Balance") + translationManager.emptyString
                 }
 
                 TextArea {
                     Layout.fillWidth: true
-                    color: LokiComponents.Style.dimmedFontColor
-                    font.family: LokiComponents.Style.fontRegular.name
+                    color: XtendcashComponents.Style.dimmedFontColor
+                    font.family: XtendcashComponents.Style.fontRegular.name
                     font.pixelSize: 14 * scaleRatio
                     horizontalAlignment: TextInput.AlignLeft
                     selectByMouse: false
@@ -384,14 +384,14 @@ Rectangle {
                     height: 24 * scaleRatio
                     anchors.verticalCenter: parent.verticalCenter
                     anchors.horizontalCenter: parent.horizontalCenter
-                    color: LokiComponents.Style.buttonBackgroundColor
+                    color: XtendcashComponents.Style.buttonBackgroundColor
 
                     Text {
                         id: rescanButtonText
                         anchors.verticalCenter: parent.verticalCenter
                         anchors.horizontalCenter: parent.horizontalCenter
-                        color: LokiComponents.Style.defaultFontColor
-                        font.family: LokiComponents.Style.fontRegular.name
+                        color: XtendcashComponents.Style.defaultFontColor
+                        font.family: XtendcashComponents.Style.fontRegular.name
                         font.pixelSize: 14 * scaleRatio
                         font.bold: true
                         text: qsTr("Rescan") + translationManager.emptyString

@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -28,10 +28,10 @@
 // THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import QtQuick 2.0
-import LokiComponents.Clipboard 1.0
-import LokiComponents.AddressBookModel 1.0
+import XtendcashComponents.Clipboard 1.0
+import XtendcashComponents.AddressBookModel 1.0
 
-import "../components" as LokiComponents
+import "../components" as XtendcashComponents
 import "../js/TxUtils.js" as TxUtils
 
 ListView {
@@ -117,7 +117,7 @@ ListView {
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             width: collapsed ? 2 : 1
-            color: collapsed ? LokiComponents.Style.heroGreen : "#404040"
+            color: collapsed ? XtendcashComponents.Style.heroGreen : "#404040"
         }
 
         Rectangle{
@@ -160,7 +160,7 @@ ListView {
                 id: txrxLabel
                 anchors.left: arrowImage.right
                 anchors.leftMargin: 18 * scaleRatio
-                font.family: LokiComponents.Style.fontLight.name
+                font.family: XtendcashComponents.Style.fontLight.name
                 font.pixelSize: 14 * scaleRatio
                 text: {
                   var base = isOut ? qsTr("Sent") : qsTr("Received");
@@ -182,7 +182,7 @@ ListView {
                 anchors.leftMargin: 18 * scaleRatio
                 anchors.top: txrxLabel.bottom
                 anchors.topMargin: 0 * scaleRatio
-                font.family: LokiComponents.Style.fontBold.name
+                font.family: XtendcashComponents.Style.fontBold.name
                 font.pixelSize: 18 * scaleRatio
                 font.bold: true
                 text: {
@@ -194,7 +194,7 @@ ListView {
                         _amount = (_amount *1);
                     }
 
-                    return _amount + " LOKI";
+                    return _amount + " XTNC";
                 }
                 color: isOut ? "white" : getColorFromRewardType(isServiceNodeReward, isMinerReward)
             }
@@ -208,7 +208,7 @@ ListView {
                 Text {
                     id: dateLabel
                     anchors.left: parent.left
-                    font.family: LokiComponents.Style.fontRegular.name
+                    font.family: XtendcashComponents.Style.fontRegular.name
                     font.pixelSize: 14 * scaleRatio
                     text: date
                     color: "#808080"
@@ -232,7 +232,7 @@ ListView {
                     anchors.left: parent.left
                     anchors.top: dateLabel.bottom
                     anchors.topMargin: 0
-                    font.family: LokiComponents.Style.fontRegular.name
+                    font.family: XtendcashComponents.Style.fontRegular.name
                     font.pixelSize: 16 * scaleRatio
                     text: {
                         if(isOut){
@@ -310,7 +310,7 @@ ListView {
             visible: delegate.collapsed
 
             // left column
-            LokiComponents.HistoryTableInnerColumn{
+            XtendcashComponents.HistoryTableInnerColumn{
                 anchors.left: parent.left
                 anchors.leftMargin: 30 * scaleRatio
 
@@ -320,7 +320,7 @@ ListView {
             }
 
             // right column
-            LokiComponents.HistoryTableInnerColumn{
+            XtendcashComponents.HistoryTableInnerColumn{
                 anchors.right: parent.right
                 anchors.rightMargin: 100 * scaleRatio
                 width: 200 * scaleRatio
@@ -332,7 +332,7 @@ ListView {
                     if(!isOut && !fee){
                         return "-";
                     } else if(isOut && fee){
-                        return fee + " LOKI";
+                        return fee + " XTNC";
                     } else {
                         return "Unknown"
                     }
@@ -358,7 +358,7 @@ ListView {
             visible: delegate.collapsed
 
             // left column
-            LokiComponents.HistoryTableInnerColumn{
+            XtendcashComponents.HistoryTableInnerColumn{
                 anchors.left: parent.left
                 anchors.leftMargin: 30 * scaleRatio
                 labelHeader: qsTr("Blockheight")
@@ -378,7 +378,7 @@ ListView {
             }
 
             // right column
-            LokiComponents.HistoryTableInnerColumn {
+            XtendcashComponents.HistoryTableInnerColumn {
                 visible: currentWallet.getUserNote(hash)
                 anchors.right: parent.right
                 anchors.rightMargin: 80 * scaleRatio
@@ -446,7 +446,7 @@ ListView {
                 }
 
                 Text {
-                    color: LokiComponents.Style.defaultFontColor
+                    color: XtendcashComponents.Style.defaultFontColor
                     text: "P"
                     anchors.horizontalCenter: parent.horizontalCenter
                     anchors.verticalCenter: parent.verticalCenter
@@ -491,7 +491,7 @@ ListView {
                 }
 
                 Text {
-                    color: LokiComponents.Style.defaultFontColor
+                    color: XtendcashComponents.Style.defaultFontColor
                     text: "?"
                     anchors.horizontalCenter: parent.horizontalCenter
                     anchors.verticalCenter: parent.verticalCenter

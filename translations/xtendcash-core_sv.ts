@@ -729,13 +729,13 @@
         <translation>(endast tillgängligt för lokala daemoner)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="vanished">Brytning med din dator hjälper till att stärka Lokis nätverk. Ju fler som bryter desto svårare blir det att angripa nätverket, och varje litet bidrag hjälper till.&lt;br&gt; &lt;br&gt;Brytningen ger dig även möjlighet att tjäna lite Loki. Din dator letar då efter lösningar för block genom att skapa hashar. Om du hittar ett block får du motsvarande blockersättning. Lycka till!</translation>
+        <source>Mining with your computer helps strengthen the Xtendcash network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Xtendcash. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="vanished">Brytning med din dator hjälper till att stärka Xtendcashs nätverk. Ju fler som bryter desto svårare blir det att angripa nätverket, och varje litet bidrag hjälper till.&lt;br&gt; &lt;br&gt;Brytningen ger dig även möjlighet att tjäna lite Xtendcash. Din dator letar då efter lösningar för block genom att skapa hashar. Om du hittar ett block får du motsvarande blockersättning. Lycka till!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="82"/>
-        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Utvinning med din dator hjälper till att stärka Lokis nätverk. Ju fler som utvinner desto svårare blir det att angripa nätverket, och varje litet bidrag hjälper till.&lt;br&gt; &lt;br&gt;Utvinningen ger dig även möjlighet att tjäna lite Loki. Din dator letar då efter lösningar för block genom att skapa hashar. Om du hittar ett block får du motsvarande blockersättning. Lycka till!</translation>
+        <source>Mining with your computer helps strengthen the Xtendcash network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Xtendcash. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Utvinning med din dator hjälper till att stärka Xtendcashs nätverk. Ju fler som utvinner desto svårare blir det att angripa nätverket, och varje litet bidrag hjälper till.&lt;br&gt; &lt;br&gt;Utvinningen ger dig även möjlighet att tjäna lite Xtendcash. Din dator letar då efter lösningar för block genom att skapa hashar. Om du hittar ett block får du motsvarande blockersättning. Lycka till!</translation>
     </message>
     <message>
         <source>CPU threads</source>
@@ -1052,13 +1052,13 @@
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="138"/>
-        <source>With more Loki</source>
-        <translation>Med mer Loki</translation>
+        <source>With more Xtendcash</source>
+        <translation>Med mer Xtendcash</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="139"/>
-        <source>With not enough Loki</source>
-        <translation>Med för lite Loki</translation>
+        <source>With not enough Xtendcash</source>
+        <translation>Med för lite Xtendcash</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="142"/>
@@ -1344,7 +1344,7 @@
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="232"/>
-        <source>Uses a third-party server to connect to the Loki network. Less secure, but easier on your computer.</source>
+        <source>Uses a third-party server to connect to the Xtendcash network. Less secure, but easier on your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1402,8 +1402,8 @@
         <translation type="vanished">GUI-version: </translation>
     </message>
     <message>
-        <source>Embedded Loki version: </source>
-        <translation type="vanished">Inbäddad Loki-version: </translation>
+        <source>Embedded Xtendcash version: </source>
+        <translation type="vanished">Inbäddad Xtendcash-version: </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="477"/>
@@ -1516,7 +1516,7 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
 </message>
     <message>
         <location filename="../pages/Settings.qml" line="565"/>
-        <source>Embedded Loki Version: </source>
+        <source>Embedded Xtendcash Version: </source>
         <translation type="unfinished"></translation>
     </message>
 <message>
@@ -1658,12 +1658,12 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="243"/>
-        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <source>In order to avoid nullifying the protection afforded by Xtendcash&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Xtendcash clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Xtendcash and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Xtendcash clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Xtendcash safely.&lt;br&gt;If you do not use a key-reusing Xtendcash clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="265"/>
-        <source>This records rings used by outputs spent on Loki on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <source>This records rings used by outputs spent on Xtendcash on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1705,7 +1705,7 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="98"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.</source>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by Xtendcash wallets as well as wallets from Xtendcash clones which reuse the Xtendcash keys.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1722,7 +1722,7 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="114"/>
-        <source>&lt;p&gt;In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Loki uses.&lt;/p&gt;&lt;p&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself using the loki-blockchain-blackball tool to create a list of known spent outputs.&lt;/p&gt;</source>
+        <source>&lt;p&gt;In order to obscure which inputs in a Xtendcash transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Xtendcash uses.&lt;/p&gt;&lt;p&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Xtendcash clones) yourself using the xtendcash-blockchain-blackball tool to create a list of known spent outputs.&lt;/p&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1780,8 +1780,8 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="97"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.</source>
-        <translation>Denna sida låter dig interagera med den delade ringdatabasen. Denna databas är avsedd att användas av både Loki-plånböcker, och plånböcker för Loki-kloner som återanvänder Lokis nycklar.</translation>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by Xtendcash wallets as well as wallets from Xtendcash clones which reuse the Xtendcash keys.</source>
+        <translation>Denna sida låter dig interagera med den delade ringdatabasen. Denna databas är avsedd att användas av både Xtendcash-plånböcker, och plånböcker för Xtendcash-kloner som återanvänder Xtendcashs nycklar.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="119"/>
@@ -1868,13 +1868,13 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="245"/>
-        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>För att undvika att upphäva det skydd som Lokis ringsignaturer tillhandahåller får en och samma utgång inte spenderas med olika ringar på olika blockkedjor. Även om detta normalt sett inte är något problem kan det bli det när en Loki-klon som återanvänder nycklar tillåter att du spenderar existerande utgångar. I detta fall måste du se till att denna existerande utgång använder samma ring på båda kedjorna.&lt;br&gt;Detta görs automatiskt av Loki och all programvara som återanvänder nycklar men inte avsiktligt försöker ta ifrån dig din integritet.&lt;br&gt;Om du även använder en Loki-klon som återanvänder nycklar, och denna klon inte inkluderar detta skydd, kan du ändå se till att dina transaktioner är skyddade genom att först spendera på klonen och sedan manuellt lägga till ringen på denna sida. Därefter kan du spendera dina Loki på ett säkert sätt.&lt;br&gt;Om du inte använder en Loki-klon som saknar dessa säkerhetsfunktioner men som ändå återanvänder nycklar, så behöver du inte göra något eftersom det sker helt automatiskt.&lt;br&gt;</translation>
+        <source>In order to avoid nullifying the protection afforded by Xtendcash&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Xtendcash clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Xtendcash and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Xtendcash clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Xtendcash safely.&lt;br&gt;If you do not use a key-reusing Xtendcash clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation>För att undvika att upphäva det skydd som Xtendcashs ringsignaturer tillhandahåller får en och samma utgång inte spenderas med olika ringar på olika blockkedjor. Även om detta normalt sett inte är något problem kan det bli det när en Xtendcash-klon som återanvänder nycklar tillåter att du spenderar existerande utgångar. I detta fall måste du se till att denna existerande utgång använder samma ring på båda kedjorna.&lt;br&gt;Detta görs automatiskt av Xtendcash och all programvara som återanvänder nycklar men inte avsiktligt försöker ta ifrån dig din integritet.&lt;br&gt;Om du även använder en Xtendcash-klon som återanvänder nycklar, och denna klon inte inkluderar detta skydd, kan du ändå se till att dina transaktioner är skyddade genom att först spendera på klonen och sedan manuellt lägga till ringen på denna sida. Därefter kan du spendera dina Xtendcash på ett säkert sätt.&lt;br&gt;Om du inte använder en Xtendcash-klon som saknar dessa säkerhetsfunktioner men som ändå återanvänder nycklar, så behöver du inte göra något eftersom det sker helt automatiskt.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="267"/>
-        <source>This records rings used by outputs spent on Loki on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation>Detta registrerar ringar som använts av utgångar som spenderats på Loki på en kedja som återanvänder nycklar, så att samma ring kan återanvändas för att undvika sekretessproblem.</translation>
+        <source>This records rings used by outputs spent on Xtendcash on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <translation>Detta registrerar ringar som använts av utgångar som spenderats på Xtendcash på en kedja som återanvänder nycklar, så att samma ring kan återanvändas för att undvika sekretessproblem.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="296"/>
@@ -2467,8 +2467,8 @@ Ringstorlek: </translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="622"/>
-        <source>Loki sent successfully</source>
-        <translation>Loki skickades</translation>
+        <source>Xtendcash sent successfully</source>
+        <translation>Xtendcash skickades</translation>
     </message>
     <message>
         <source>Money sent successfully</source>
@@ -2633,21 +2633,21 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Loki preferences</source>
-        <translation type="vanished">Vi är nästan framme - låt oss bara göra några Loki-inställningar</translation>
+        <source>We’re almost there - let’s just configure some Xtendcash preferences</source>
+        <translation type="vanished">Vi är nästan framme - låt oss bara göra några Xtendcash-inställningar</translation>
     </message>
     <message>
-        <source>Kickstart the Loki blockchain?</source>
-        <translation type="vanished">Kickstarta Lokis blockkedja?</translation>
+        <source>Kickstart the Xtendcash blockchain?</source>
+        <translation type="vanished">Kickstarta Xtendcashs blockkedja?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
-        <source>We’re almost there - let’s just configure some Loki preferences</source>
+        <source>We’re almost there - let’s just configure some Xtendcash preferences</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="98"/>
-        <source>Kickstart the Loki blockchain?</source>
+        <source>Kickstart the Xtendcash blockchain?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2662,17 +2662,17 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="141"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Xtendcash instance. However, storing the full blockchain is beneficial to the security of the Xtendcash network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="170"/>
-        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Xtendcash network, and also pays a small reward for the work done. This option will let Xtendcash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">Disksparläge använder väsentligen mindre diskutrymme, men utnyttjar samma bandbredd som en vanlig Loki-instans. Att spara hela blockkedjan förbättrar säkerheten för hela Lokis nätverk. Om du använder en enhet med begränsat diskutrymme så passar detta alternativ för dig.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Xtendcash instance. However, storing the full blockchain is beneficial to the security of the Xtendcash network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation type="vanished">Disksparläge använder väsentligen mindre diskutrymme, men utnyttjar samma bandbredd som en vanlig Xtendcash-instans. Att spara hela blockkedjan förbättrar säkerheten för hela Xtendcashs nätverk. Om du använder en enhet med begränsat diskutrymme så passar detta alternativ för dig.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2681,8 +2681,8 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="169"/>
-        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Utvinningen säkrar Lokis nätverk, och betalar även en liten ersättning för det arbete som utförs. Detta alternativ låter Loki utvinna när din dator är nätansluten men inaktiv. Utvinningen stoppas när du fortsätter att arbeta igen.</translation>
+        <source>Mining secures the Xtendcash network, and also pays a small reward for the work done. This option will let Xtendcash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Utvinningen säkrar Xtendcashs nätverk, och betalar även en liten ersättning för det arbete som utförs. Detta alternativ låter Xtendcash utvinna när din dator är nätansluten men inaktiv. Utvinningen stoppas när du fortsätter att arbeta igen.</translation>
     </message>
 </context>
 <context>
@@ -2716,12 +2716,12 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
 <context>
     <name>WizardDaemonSettings</name>
     <message>
-        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation type="vanished">Plånboken måste vara ansluten till en Loki-nod för att för att kunna kommunicera med Lokis nätverk. För högsta sekretess rekommenderas att du kör din egen nod.                         &lt;br&gt;&lt;br&gt;                         Om du inte har möjlighet att köra din egen nod finns alternativet att ansluta till en fjärrnod.</translation>
+        <source>To be able to communicate with the Xtendcash network your wallet needs to be connected to a Xtendcash node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation type="vanished">Plånboken måste vara ansluten till en Xtendcash-nod för att för att kunna kommunicera med Xtendcashs nätverk. För högsta sekretess rekommenderas att du kör din egen nod.                         &lt;br&gt;&lt;br&gt;                         Om du inte har möjlighet att köra din egen nod finns alternativet att ansluta till en fjärrnod.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="113"/>
-        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <source>To be able to communicate with the Xtendcash network your wallet needs to be connected to a Xtendcash node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2762,12 +2762,12 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Loki development is solely supported by donations</source>
-        <translation type="vanished">Utvecklingen av Loki finansieras helt genom donationer</translation>
+        <source>Xtendcash development is solely supported by donations</source>
+        <translation type="vanished">Utvecklingen av Xtendcash finansieras helt genom donationer</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
-        <source>Loki development is solely supported by donations</source>
+        <source>Xtendcash development is solely supported by donations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2782,17 +2782,17 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="163"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 LOK and add a 0.0025 LOK to support Loki development.</source>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Xtendcash development. For instance, a 50% autodonation take a transaction fee of 0.005 LOK and add a 0.0025 LOK to support Xtendcash development.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="191"/>
-        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Xtendcash network, and also pays a small reward for the work done. This option will let Xtendcash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
-        <translation type="vanished">För varje transaktion tas en liten transaktionsavgift ut. Detta alternativ låter dig lägga till ett ytterligare belopp till din transaktion, angivet som en procent av transaktionsavgiften, för att stödja utvecklingen av Loki. Till exempel, en 50 % automatisk donation tar en transaktionsavgift på 0,005 XMR och lägger på 0,0025 XMR för att stödja utvecklingen av Loki.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Xtendcash development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Xtendcash development.</source>
+        <translation type="vanished">För varje transaktion tas en liten transaktionsavgift ut. Detta alternativ låter dig lägga till ett ytterligare belopp till din transaktion, angivet som en procent av transaktionsavgiften, för att stödja utvecklingen av Xtendcash. Till exempel, en 50 % automatisk donation tar en transaktionsavgift på 0,005 XMR och lägger på 0,0025 XMR för att stödja utvecklingen av Xtendcash.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2801,8 +2801,8 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="190"/>
-        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Utvinningen säkrar Lokis nätverk, och betalar även en liten ersättning för det arbete som utförs. Detta alternativ låter Loki utvinna när din dator är nätansluten men inaktiv. Utvinningen stoppas när du fortsätter att arbeta igen.</translation>
+        <source>Mining secures the Xtendcash network, and also pays a small reward for the work done. This option will let Xtendcash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Utvinningen säkrar Xtendcashs nätverk, och betalar även en liten ersättning för det arbete som utförs. Detta alternativ låter Xtendcash utvinna när din dator är nätansluten men inaktiv. Utvinningen stoppas när du fortsätter att arbeta igen.</translation>
     </message>
 </context>
 <context>
@@ -2901,12 +2901,12 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
         <translation type="vanished">Endast ASCII-tecken är tillåtna i kontonamnet eller sökvägen till plånboken</translation>
     </message>
     <message>
-        <source>USE LOKI</source>
-        <translation type="vanished">ANVÄND LOKI</translation>
+        <source>USE XTNC</source>
+        <translation type="vanished">ANVÄND XTNC</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
-        <source>USE LOKI</source>
+        <source>USE XTNC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3027,8 +3027,8 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Loki!</source>
-        <translation type="vanished">Välkommen till Loki!</translation>
+        <source>Welcome to Xtendcash!</source>
+        <translation type="vanished">Välkommen till Xtendcash!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
@@ -3041,7 +3041,7 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="75"/>
-        <source>Welcome To Loki!</source>
+        <source>Welcome To Xtendcash!</source>
         <translation type="unfinished"></translation>
     </message>
 <message>
@@ -3122,12 +3122,12 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Loki!</source>
-        <translation type="vanished">Välkommen till Loki!</translation>
+        <source>Welcome to Xtendcash!</source>
+        <translation type="vanished">Välkommen till Xtendcash!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
-        <source>Welcome To Loki!</source>
+        <source>Welcome To Xtendcash!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3309,8 +3309,8 @@ Ringstorlek: </translation>
         <translation>Felaktig signatur</translation>
     </message>
     <message>
-        <source>This address received %1 loki, with %2 confirmation(s).</source>
-        <translation type="vanished">Denna adress tog emot %1 loki, med %2 bekräftelser.</translation>
+        <source>This address received %1 xtendcash, with %2 confirmation(s).</source>
+        <translation type="vanished">Denna adress tog emot %1 xtendcash, med %2 bekräftelser.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="460"/>
@@ -3378,18 +3378,18 @@ Index för spenderingsadress: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="788"/>
-        <source>Loki sent successfully: %1 transaction(s) </source>
-        <translation>Loki skickades: %1 transaktioner </translation>
+        <source>Xtendcash sent successfully: %1 transaction(s) </source>
+        <translation>Xtendcash skickades: %1 transaktioner </translation>
     </message>
     <message>
         <location filename="../main.qml" line="854"/>
-        <source>This address received %1 Loki, but the transaction is not yet mined</source>
+        <source>This address received %1 Xtendcash, but the transaction is not yet mined</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="864"/>
-        <source>This address received %1 Loki, with %2 confirmation(s).</source>
-        <translation>Denna adress tog emot %1 Loki, med %2 bekräftelser.</translation>
+        <source>This address received %1 Xtendcash, with %2 confirmation(s).</source>
+        <translation>Denna adress tog emot %1 Xtendcash, med %2 bekräftelser.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="868"/>
@@ -3444,7 +3444,7 @@ Index för spenderingsadress: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1298"/>
-        <source>Loki</source>
+        <source>Xtendcash</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3469,7 +3469,7 @@ Index för spenderingsadress: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1796"/>
-        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of xtendcash-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3519,8 +3519,8 @@ Beskrivning: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="859"/>
-        <source>This address received %1 loki, but the transaction is not yet mined</source>
-        <translation>Denna adress tog emot %1 Loki, men transaktionen har ännu inte bekräftats</translation>
+        <source>This address received %1 xtendcash, but the transaction is not yet mined</source>
+        <translation>Denna adress tog emot %1 Xtendcash, men transaktionen har ännu inte bekräftats</translation>
     </message>
     <message>
         <location filename="../main.qml" line="861"/>
@@ -3548,8 +3548,8 @@ Beskrivning: </translation>
         <translation>Konfigurationsguide</translation>
     </message>
     <message>
-        <source>Loki</source>
-        <translation type="vanished">Loki</translation>
+        <source>Xtendcash</source>
+        <translation type="vanished">Xtendcash</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1454"/>

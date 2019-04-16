@@ -709,12 +709,12 @@
         <translation type="vanished">(로컬 데몬에서만 사용 가능)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <source>Mining with your computer helps strengthen the Xtendcash network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Xtendcash. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation type="vanished">당신의 컴퓨터로 마이닝을 하면 모네로 네트워크가 강화됩니다. 더 많은 사람이 조금씩이라도 마이닝을 시행할수록 네트워크가 공격으로부터 안전해집니다. 또한 마이닝은 약간의 모네로를 벌 수있는 작은 기회를 제공합니다. 컴퓨터가 마이닝을 시행하면, 블록 솔루션을 찾는 해시를 만들고, 맞는 블록을 찾으면 해당하는 보상을 받게됩니다. 행운을 빕니다!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
-        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <source>Mining with your computer helps strengthen the Xtendcash network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Xtendcash. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1326,7 +1326,7 @@
         <translation type="vanished">GUI 버전:</translation>
     </message>
     <message>
-        <source>Embedded Loki version: </source>
+        <source>Embedded Xtendcash version: </source>
         <translation type="vanished">임베디드 모네로 버전:</translation>
     </message>
     <message>
@@ -1496,7 +1496,7 @@ The old wallet cache file will be renamed and can be restored later.
 </message>
     <message>
         <location filename="../pages/Settings.qml" line="565"/>
-        <source>Embedded Loki Version: </source>
+        <source>Embedded Xtendcash Version: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1573,7 +1573,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="243"/>
-        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <source>In order to avoid nullifying the protection afforded by Xtendcash&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Xtendcash clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Xtendcash and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Xtendcash clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Xtendcash safely.&lt;br&gt;If you do not use a key-reusing Xtendcash clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1619,7 +1619,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="98"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.</source>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by Xtendcash wallets as well as wallets from Xtendcash clones which reuse the Xtendcash keys.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1636,7 +1636,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="114"/>
-        <source>&lt;p&gt;In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Loki uses.&lt;/p&gt;&lt;p&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself using the loki-blockchain-blackball tool to create a list of known spent outputs.&lt;/p&gt;</source>
+        <source>&lt;p&gt;In order to obscure which inputs in a Xtendcash transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Xtendcash uses.&lt;/p&gt;&lt;p&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Xtendcash clones) yourself using the xtendcash-blockchain-blackball tool to create a list of known spent outputs.&lt;/p&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2050,7 +2050,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="550"/>
-        <source>Loki sent successfully</source>
+        <source>Xtendcash sent successfully</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2357,21 +2357,21 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Loki preferences</source>
+        <source>We’re almost there - let’s just configure some Xtendcash preferences</source>
         <translation type="vanished"> 거의 끝나갑니다 - 선호하는 모네로 환경설정을 구성해 보세요.</translation>
     </message>
     <message>
-        <source>Kickstart the Loki blockchain?</source>
+        <source>Kickstart the Xtendcash blockchain?</source>
         <translation type="vanished">모네로 블록체인 구동을 시작하겠습니까?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
-        <source>We’re almost there - let’s just configure some Loki preferences</source>
+        <source>We’re almost there - let’s just configure some Xtendcash preferences</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="98"/>
-        <source>Kickstart the Loki blockchain?</source>
+        <source>Kickstart the Xtendcash blockchain?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2386,16 +2386,16 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="141"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Xtendcash instance. However, storing the full blockchain is beneficial to the security of the Xtendcash network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="170"/>
-        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Xtendcash network, and also pays a small reward for the work done. This option will let Xtendcash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Xtendcash instance. However, storing the full blockchain is beneficial to the security of the Xtendcash network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
         <translation type="vanished">디스크 절약 모드는 매우 적은 디스크 공간을 사용하지만 일반 모네로 인스턴스와 같은 양의 데이터를 사용합니다. 하지만 블록체인 전체를 저장하는 것이 모네로 네트워크를 안전하게 하는데 도움이 됩니다. 이 옵션은 디스크 공간이 제한적인 장치에 적합합니다.</translation>
     </message>
     <message>
@@ -2404,7 +2404,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>백그라운드에서 마이닝을 허용 하시겠습니까?</translation>
     </message>
     <message>
-        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Xtendcash network, and also pays a small reward for the work done. This option will let Xtendcash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation type="vanished">마이닝은 모네로 네트워크를 보호하고 수행 한 작업에 대해 작은 보상을 지불합니다. 이 옵션은 당신의 컴퓨터가 전원에 연결되어 있고 게다가 유휴 상태 일 때 자동으로 모네로의 채굴을 할 수 있도록합니다. 당신이 작업을 다시 시작하면 채굴은 중지됩니다.</translation>
     </message>
 </context>
@@ -2440,7 +2440,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <name>WizardDaemonSettings</name>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="113"/>
-        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <source>To be able to communicate with the Xtendcash network your wallet needs to be connected to a Xtendcash node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2476,12 +2476,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Loki development is solely supported by donations</source>
+        <source>Xtendcash development is solely supported by donations</source>
         <translation type="vanished">모네로의 개발은 전적으로 기부금 지원으로 이루어집니다</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
-        <source>Loki development is solely supported by donations</source>
+        <source>Xtendcash development is solely supported by donations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2496,16 +2496,16 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="163"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 LOK and add a 0.0025 LOK to support Loki development.</source>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Xtendcash development. For instance, a 50% autodonation take a transaction fee of 0.005 LOK and add a 0.0025 LOK to support Xtendcash development.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="191"/>
-        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Xtendcash network, and also pays a small reward for the work done. This option will let Xtendcash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Xtendcash development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Xtendcash development.</source>
         <translation type="vanished">모든 거래에 대해 작은 수수료가 부과됩니다. 해당 옵션은 수수료 이외에 수수료의 일부에 해당하는 금액을 모네로 개발팀에 기부하는 것을 허용합니다. 예를 들어, 자동 기부율이 50%이고 거래 수수료가 0.005 XMR이면 0.0025 XMR이 개발팀에 대한 기부로 거래금액에 추가됩니다.</translation>
     </message>
     <message>
@@ -2514,7 +2514,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>백그라운드에서 마이닝을 허용하시겠습니까?</translation>
     </message>
     <message>
-        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Xtendcash network, and also pays a small reward for the work done. This option will let Xtendcash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation type="vanished">마이닝은 모네로 네트워크를 보호하고 수행한 작업에 대해 작은 보상을 지불합니다. 이 옵션은 당신의 컴퓨터가 전원에 연결되어 있고 IDLE 상태일때 자동으로 모네로를 채굴할 수 있도록합니다. 당신이 작업을 다시 시작하면 채굴은 중지됩니다.</translation>
     </message>
 </context>
@@ -2614,12 +2614,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished"> ASCII(미국 문자 표준코드체계)가 아닌 문자는 지갑 경로 이름 또는 파일 이름으로 허용되지 않습니다.</translation>
     </message>
     <message>
-        <source>USE LOKI</source>
+        <source>USE XTNC</source>
         <translation type="vanished">모네로 사용하기</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
-        <source>USE LOKI</source>
+        <source>USE XTNC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2740,7 +2740,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Loki!</source>
+        <source>Welcome to Xtendcash!</source>
         <translation type="vanished">모네로에 오신 것을 환영합니다!</translation>
     </message>
     <message>
@@ -2754,7 +2754,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="75"/>
-        <source>Welcome To Loki!</source>
+        <source>Welcome To Xtendcash!</source>
         <translation type="unfinished"></translation>
     </message>
 <message>
@@ -2835,12 +2835,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Loki!</source>
+        <source>Welcome to Xtendcash!</source>
         <translation type="vanished">모네로에 오신 것을 환영합니다!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
-        <source>Welcome To Loki!</source>
+        <source>Welcome To Xtendcash!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3012,7 +3012,7 @@ Amount: </source>
         <translation>금액: </translation>
     </message>
     <message>
-        <source>This address received %1 loki, with %2 confirmation(s).</source>
+        <source>This address received %1 xtendcash, with %2 confirmation(s).</source>
         <translation type="vanished">이 주소로 %1 XMR을 받아, %2 번의 컨펌을 받았습니다.</translation>
     </message>
     <message>
@@ -3036,8 +3036,8 @@ Amount: </source>
         <translation>데몬 중지</translation>
     </message>
     <message>
-        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation type="vanished">loki-wallet-gui의 새 버전을 사용할 수 있습니다: %1&lt;br&gt;%2</translation>
+        <source>New version of xtendcash-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation type="vanished">xtendcash-wallet-gui의 새 버전을 사용할 수 있습니다: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <source>Amount is wrong: expected number from %1 to %2</source>
@@ -3068,7 +3068,7 @@ Amount: </source>
         <translation>거래 데이터를 파일에 저장되었습니다: %1</translation>
     </message>
     <message>
-        <source>This address received %1 loki, but the transaction is not yet mined</source>
+        <source>This address received %1 xtendcash, but the transaction is not yet mined</source>
         <translation type="vanished">이 주소는 % 1XMR을 받았지만, 해당 거래가 아직 채굴에 포함되지 않았습니다</translation>
     </message>
     <message>
@@ -3125,17 +3125,17 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="783"/>
-        <source>Loki sent successfully: %1 transaction(s) </source>
+        <source>Xtendcash sent successfully: %1 transaction(s) </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="854"/>
-        <source>This address received %1 Loki, but the transaction is not yet mined</source>
+        <source>This address received %1 Xtendcash, but the transaction is not yet mined</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="857"/>
-        <source>This address received %1 Loki, with %2 confirmation(s).</source>
+        <source>This address received %1 Xtendcash, with %2 confirmation(s).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3216,16 +3216,16 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1298"/>
-        <source>Loki</source>
+        <source>Xtendcash</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="1796"/>
-        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of xtendcash-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Loki</source>
+        <source>Xtendcash</source>
         <translation type="vanished">모네로</translation>
     </message>
     <message>

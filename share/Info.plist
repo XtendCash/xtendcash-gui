@@ -18,13 +18,13 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>loki-wallet-gui</string>
+  <string>xtendcash-wallet-gui</string>
   
   <key>CFBundleName</key>
-  <string>Loki GUI</string>
+  <string>XtendCash GUI</string>
 
   <key>CFBundleIdentifier</key>
-  <string>org.loki-project.loki-wallet-gui</string>
+  <string>org.xtendcsh.xtendcash-wallet-gui</string>
 
   <key>NSSupportsAutomaticGraphicsSwitching</key>
   <true/>

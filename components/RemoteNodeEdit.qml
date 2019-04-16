@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -32,7 +32,7 @@ import QtQuick.Controls.Styles 1.2
 import QtQuick 2.2
 import QtQuick.Layouts 1.1
 
-import "../components" as LokiComponents
+import "../components" as XtendcashComponents
 
 GridLayout {
     columns: (isMobile) ? 1 : 2
@@ -45,10 +45,10 @@ GridLayout {
 
     // TODO: LEGACY; remove these placeHolder variables when
     // the wizards get redesigned to the black-theme
-    property string placeholderFontFamily: LokiComponents.Style.fontRegular.name
+    property string placeholderFontFamily: XtendcashComponents.Style.fontRegular.name
     property bool placeholderFontBold: false
     property int placeholderFontSize: 18 * scaleRatio
-    property string placeholderColor: LokiComponents.Style.defaultFontColor
+    property string placeholderColor: XtendcashComponents.Style.defaultFontColor
     property real placeholderOpacity: 0.25
 
     property string lineEditBackgroundColor: "white"

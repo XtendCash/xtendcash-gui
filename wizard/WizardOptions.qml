@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -30,7 +30,7 @@
 import QtQuick 2.2
 import QtQml 2.2
 import QtQuick.Layouts 1.1
-import LokiComponents.NetworkType 1.0
+import XtendcashComponents.NetworkType 1.0
 import "../components"
 
 ColumnLayout {
@@ -73,7 +73,7 @@ ColumnLayout {
             //renderType: Text.NativeRendering
             color: Style.defaultFontColor
             wrapMode: Text.Wrap
-            text: qsTr("Welcome To Loki!") + translationManager.emptyString
+            text: qsTr("Welcome To Xtendcash!") + translationManager.emptyString
         }
 
         Text {

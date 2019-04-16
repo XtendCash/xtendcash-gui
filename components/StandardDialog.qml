@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 //
 // All rights reserved.
@@ -34,7 +34,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls.Styles 1.4
 import QtQuick.Window 2.0
 
-import "../components" as LokiComponents
+import "../components" as XtendcashComponents
 
 Rectangle {
     id: root
@@ -103,11 +103,11 @@ Rectangle {
             //anchors {fill: parent; margins: 16 }
             Layout.topMargin: 14 * scaleRatio
 
-            LokiComponents.Label {
+            XtendcashComponents.Label {
                 id: dialogTitle
                 fontSize: 18 * scaleRatio
                 fontFamily: "Arial"
-                color: LokiComponents.Style.defaultFontColor
+                color: XtendcashComponents.Style.defaultFontColor
             }
 
         }
@@ -118,13 +118,13 @@ Rectangle {
                 Layout.fillWidth: true
                 Layout.fillHeight: true
                 renderType: Text.QtRendering
-                font.family: LokiComponents.Style.fontLight.name
+                font.family: XtendcashComponents.Style.fontLight.name
                 textFormat: TextEdit.AutoText
                 readOnly: true
                 font.pixelSize: 14 * scaleRatio
                 selectByMouse: false
                 wrapMode: TextEdit.Wrap
-                color: LokiComponents.Style.defaultFontColor
+                color: XtendcashComponents.Style.defaultFontColor
 
                 MouseArea {
                     anchors.fill: parent
@@ -148,7 +148,7 @@ Rectangle {
             spacing: 60
             Layout.alignment: Qt.AlignHCenter
 
-            LokiComponents.StandardButton {
+            XtendcashComponents.StandardButton {
                 id: cancelButton
                 text: qsTr("Cancel") + translationManager.emptyString
                 onClicked: {
@@ -157,7 +157,7 @@ Rectangle {
                 }
             }
 
-            LokiComponents.StandardButton {
+            XtendcashComponents.StandardButton {
                 id: okButton
                 text: qsTr("OK")
                 KeyNavigation.tab: cancelButton
@@ -173,7 +173,7 @@ Rectangle {
     // window borders
     Rectangle{
         width: 1
-        color: LokiComponents.Style.grey
+        color: XtendcashComponents.Style.grey
         anchors.left: parent.left
         anchors.top: parent.top
         anchors.bottom: parent.bottom
@@ -181,7 +181,7 @@ Rectangle {
 
     Rectangle{
         width: 1
-        color: LokiComponents.Style.grey
+        color: XtendcashComponents.Style.grey
         anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
@@ -189,7 +189,7 @@ Rectangle {
 
     Rectangle{
         height: 1
-        color: LokiComponents.Style.grey
+        color: XtendcashComponents.Style.grey
         anchors.left: parent.left
         anchors.top: parent.top
         anchors.right: parent.right
@@ -197,7 +197,7 @@ Rectangle {
 
     Rectangle{
         height: 1
-        color: LokiComponents.Style.grey
+        color: XtendcashComponents.Style.grey
         anchors.left: parent.left
         anchors.bottom: parent.bottom
         anchors.right: parent.right

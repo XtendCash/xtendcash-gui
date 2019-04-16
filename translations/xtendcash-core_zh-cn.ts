@@ -709,8 +709,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="74"/>
-        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>挖矿可增进 Loki 网络的安全性, 越多使用者的挖矿活动, Loki 网络就会越难以被攻击. &lt;br&gt; &lt;br&gt;挖矿也让您有机会赚取额外的门罗币, 您的计算机将持续创建哈希值用以寻找区块, 如找到则可以获得该区块所附带的门罗币奖励, 祝您好运！</translation>
+        <source>Mining with your computer helps strengthen the Xtendcash network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Xtendcash. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>挖矿可增进 Xtendcash 网络的安全性, 越多使用者的挖矿活动, Xtendcash 网络就会越难以被攻击. &lt;br&gt; &lt;br&gt;挖矿也让您有机会赚取额外的门罗币, 您的计算机将持续创建哈希值用以寻找区块, 如找到则可以获得该区块所附带的门罗币奖励, 祝您好运！</translation>
     </message>
     <message>
         <source>CPU threads</source>
@@ -1027,12 +1027,12 @@
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="138"/>
-        <source>With more Loki</source>
+        <source>With more Xtendcash</source>
         <translation>更多的门罗币</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="139"/>
-        <source>With not enough Loki</source>
+        <source>With not enough Xtendcash</source>
         <translation>门罗币不足</translation>
     </message>
     <message>
@@ -1390,8 +1390,8 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>GUI版本: </translation>
     </message>
     <message>
-        <source>Embedded Loki version: </source>
-        <translation type="vanished">内嵌Loki版本: </translation>
+        <source>Embedded Xtendcash version: </source>
+        <translation type="vanished">内嵌Xtendcash版本: </translation>
     </message>
     <message>
         <source>Wallet creation height: </source>
@@ -1585,7 +1585,7 @@ The old wallet cache file will be renamed and can be restored later.
 </message>
     <message>
         <location filename="../pages/Settings.qml" line="565"/>
-        <source>Embedded Loki Version: </source>
+        <source>Embedded Xtendcash Version: </source>
         <translation type="unfinished"></translation>
     </message>
 <message>
@@ -1626,8 +1626,8 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="97"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.</source>
-        <translation>您在本页面可以操作共享的环签名数据库.  Loki 钱包以及复制了 Loki 密钥的克隆钱包都将使用本数据库.</translation>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by Xtendcash wallets as well as wallets from Xtendcash clones which reuse the Xtendcash keys.</source>
+        <translation>您在本页面可以操作共享的环签名数据库.  Xtendcash 钱包以及复制了 Xtendcash 密钥的克隆钱包都将使用本数据库.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="119"/>
@@ -1714,13 +1714,13 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="245"/>
-        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>为了避免Loki环签名提供的保护无效, 同一个输出不应该在不同的区块链上使用不同的环签名来支付.  虽然这通常不是一个问题, 但是当复制了 Loki 密钥的克隆钱包允许您支付到现有输出时, 它可以成为一个问题.  在这种情况下, 您需要确保这些现有输出在两条链上都使用相同的环签名. &lt;br&gt;这将由Loki和任何不想破坏您隐私权的密钥重用软件自动完成.  &lt;br&gt; 如果您同时在使用复制了 Loki 密钥的克隆钱包, 并且不包含这种保护, 您仍然可以通过在它之上新的交易来确保您的交易安全, 然后在此页面上手动添加环签名, 从而使您安全地使用Loki. &lt;br&gt;如果您没有使用无此安全功能的克隆钱包, 那么您不需要做任何事情, 因为所有都是自动的.&lt;br&gt;</translation>
+        <source>In order to avoid nullifying the protection afforded by Xtendcash&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Xtendcash clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Xtendcash and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Xtendcash clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Xtendcash safely.&lt;br&gt;If you do not use a key-reusing Xtendcash clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation>为了避免Xtendcash环签名提供的保护无效, 同一个输出不应该在不同的区块链上使用不同的环签名来支付.  虽然这通常不是一个问题, 但是当复制了 Xtendcash 密钥的克隆钱包允许您支付到现有输出时, 它可以成为一个问题.  在这种情况下, 您需要确保这些现有输出在两条链上都使用相同的环签名. &lt;br&gt;这将由Xtendcash和任何不想破坏您隐私权的密钥重用软件自动完成.  &lt;br&gt; 如果您同时在使用复制了 Xtendcash 密钥的克隆钱包, 并且不包含这种保护, 您仍然可以通过在它之上新的交易来确保您的交易安全, 然后在此页面上手动添加环签名, 从而使您安全地使用Xtendcash. &lt;br&gt;如果您没有使用无此安全功能的克隆钱包, 那么您不需要做任何事情, 因为所有都是自动的.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="267"/>
-        <source>This records rings used by outputs spent on Loki on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation>这个环签名已在密钥重用的Loki链上使用过, 因此重复使用同一个环签名可以避免隐私问题. </translation>
+        <source>This records rings used by outputs spent on Xtendcash on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <translation>这个环签名已在密钥重用的Xtendcash链上使用过, 因此重复使用同一个环签名可以避免隐私问题. </translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="296"/>
@@ -2185,7 +2185,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="622"/>
-        <source>Loki sent successfully</source>
+        <source>Xtendcash sent successfully</source>
         <translation>成功付款</translation>
     </message>
     <message>
@@ -2486,21 +2486,21 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Loki preferences</source>
-        <translation type="vanished">就快完成了 - Loki 还需要一点设置</translation>
+        <source>We’re almost there - let’s just configure some Xtendcash preferences</source>
+        <translation type="vanished">就快完成了 - Xtendcash 还需要一点设置</translation>
     </message>
     <message>
-        <source>Kickstart the Loki blockchain?</source>
-        <translation type="vanished">开始同步 Loki 区块链?</translation>
+        <source>Kickstart the Xtendcash blockchain?</source>
+        <translation type="vanished">开始同步 Xtendcash 区块链?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
-        <source>We’re almost there - let’s just configure some Loki preferences</source>
+        <source>We’re almost there - let’s just configure some Xtendcash preferences</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="98"/>
-        <source>Kickstart the Loki blockchain?</source>
+        <source>Kickstart the Xtendcash blockchain?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2515,8 +2515,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="140"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>硬盘节约模式能精简区块链的数据而减少硬盘空间的使用量, 但保存完整的区块链能加强 Loki 网络的安全性, 当您需要在容量较小的硬盘上执行, 那么这个功能就很适合您, 此功能对于网络带宽的用量没有影响. </translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Xtendcash instance. However, storing the full blockchain is beneficial to the security of the Xtendcash network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>硬盘节约模式能精简区块链的数据而减少硬盘空间的使用量, 但保存完整的区块链能加强 Xtendcash 网络的安全性, 当您需要在容量较小的硬盘上执行, 那么这个功能就很适合您, 此功能对于网络带宽的用量没有影响. </translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2525,8 +2525,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="169"/>
-        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>启动挖矿功能可让 Loki 的系统网络更加安全, 且在工作完成时获得小额的奖励金. 这个功能只会在计算机插着电源并且闲置时才会自动启动, 当您继续使用计算机后即会停止挖矿. </translation>
+        <source>Mining secures the Xtendcash network, and also pays a small reward for the work done. This option will let Xtendcash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>启动挖矿功能可让 Xtendcash 的系统网络更加安全, 且在工作完成时获得小额的奖励金. 这个功能只会在计算机插着电源并且闲置时才会自动启动, 当您继续使用计算机后即会停止挖矿. </translation>
     </message>
 </context>
 <context>
@@ -2561,8 +2561,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <name>WizardDaemonSettings</name>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="114"/>
-        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation>为了能与Loki网络进行通讯, 您的钱包需要连接上一个Loki节点. 为了获得最好的隐私, 我们建议您运行一个自己的节点 &lt;br&gt;&lt;br&gt; 如果您无法运行自己的节点, 可以选择连上一个远程的节点. </translation>
+        <source>To be able to communicate with the Xtendcash network your wallet needs to be connected to a Xtendcash node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation>为了能与Xtendcash网络进行通讯, 您的钱包需要连接上一个Xtendcash节点. 为了获得最好的隐私, 我们建议您运行一个自己的节点 &lt;br&gt;&lt;br&gt; 如果您无法运行自己的节点, 可以选择连上一个远程的节点. </translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="125"/>
@@ -2603,18 +2603,18 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Loki development is solely supported by donations</source>
-        <translation>Loki的开发完全由捐赠所支持</translation>
+        <source>Xtendcash development is solely supported by donations</source>
+        <translation>Xtendcash的开发完全由捐赠所支持</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
-        <source>Loki development is solely supported by donations</source>
+        <source>Xtendcash development is solely supported by donations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="114"/>
         <source>Enable auto-donations of?</source>
-        <translation>激活自动捐赠给Loki的开发团队?</translation>
+        <translation>激活自动捐赠给Xtendcash的开发团队?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="152"/>
@@ -2623,8 +2623,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
-        <translation>在每一笔交易中 Loki 系统都会收取小额的手续费, 而这个选项则是让你可以增加额外的金额捐赠 Loki 的开发, 比例以当次交易的手续费为基础计算, 譬如 50% 的自动捐赠意味着如果转账手续费为 0.005XMR时将会额外捐赠 0.0025 XMR 给 Loki 开发团队. </translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Xtendcash development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Xtendcash development.</source>
+        <translation>在每一笔交易中 Xtendcash 系统都会收取小额的手续费, 而这个选项则是让你可以增加额外的金额捐赠 Xtendcash 的开发, 比例以当次交易的手续费为基础计算, 譬如 50% 的自动捐赠意味着如果转账手续费为 0.005XMR时将会额外捐赠 0.0025 XMR 给 Xtendcash 开发团队. </translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2633,8 +2633,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="190"/>
-        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>启动挖矿功能可让 Loki 的网络更加安全, 且在工作完成时获得小额的奖励金. 这个功能只会在计算机插着电源并且闲置时才会自动启动, 当您继续使用计算机后即会停止挖矿. </translation>
+        <source>Mining secures the Xtendcash network, and also pays a small reward for the work done. This option will let Xtendcash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>启动挖矿功能可让 Xtendcash 的网络更加安全, 且在工作完成时获得小额的奖励金. 这个功能只会在计算机插着电源并且闲置时才会自动启动, 当您继续使用计算机后即会停止挖矿. </translation>
     </message>
 </context>
 <context>
@@ -2733,12 +2733,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">钱包的路径与名称只能使用字母，数字和下划线</translation>
     </message>
     <message>
-        <source>USE LOKI</source>
-        <translation type="vanished">使用 LOKI</translation>
+        <source>USE XTNC</source>
+        <translation type="vanished">使用 XTNC</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
-        <source>USE LOKI</source>
+        <source>USE XTNC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2859,8 +2859,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Loki!</source>
-        <translation type="vanished">欢迎使用 Loki！</translation>
+        <source>Welcome to Xtendcash!</source>
+        <translation type="vanished">欢迎使用 Xtendcash！</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
@@ -2873,7 +2873,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="75"/>
-        <source>Welcome To Loki!</source>
+        <source>Welcome To Xtendcash!</source>
         <translation type="unfinished"></translation>
     </message>
 <message>
@@ -2954,12 +2954,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Loki!</source>
-        <translation type="vanished">欢迎使用 Loki！</translation>
+        <source>Welcome to Xtendcash!</source>
+        <translation type="vanished">欢迎使用 Xtendcash！</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
-        <source>Welcome To Loki!</source>
+        <source>Welcome To Xtendcash!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3139,8 +3139,8 @@ Ringsize: </source>
         <translation type="unfinished">签名不正确</translation>
     </message>
     <message>
-        <source>This address received %1 loki, with %2 confirmation(s).</source>
-        <translation type="vanished">这个地址接收了 %1 loki，并通过 %2 次的确认。</translation>
+        <source>This address received %1 xtendcash, with %2 confirmation(s).</source>
+        <translation type="vanished">这个地址接收了 %1 xtendcash，并通过 %2 次的确认。</translation>
     </message>
     <message>
         <location filename="../main.qml" line="460"/>
@@ -3204,8 +3204,8 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="788"/>
-        <source>Loki sent successfully: %1 transaction(s) </source>
-        <translation>Loki转账已成功: %1 个交易</translation>
+        <source>Xtendcash sent successfully: %1 transaction(s) </source>
+        <translation>Xtendcash转账已成功: %1 个交易</translation>
     </message>
     <message>
         <location filename="../main.qml" line="827"/>
@@ -3232,8 +3232,8 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="862"/>
-        <source>This address received %1 loki, with %2 confirmation(s).</source>
-        <translation>这个地址接收了 %1 个loki, 并通过 %2 次的确认. </translation>
+        <source>This address received %1 xtendcash, with %2 confirmation(s).</source>
+        <translation>这个地址接收了 %1 个xtendcash, 并通过 %2 次的确认. </translation>
     </message>
     <message>
         <location filename="../main.qml" line="868"/>
@@ -3288,7 +3288,7 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1298"/>
-        <source>Loki</source>
+        <source>Xtendcash</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3313,7 +3313,7 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1796"/>
-        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of xtendcash-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3363,8 +3363,8 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="859"/>
-        <source>This address received %1 loki, but the transaction is not yet mined</source>
-        <translation>这个地址将收到 %1 个loki币, 但这笔交易尚未被矿工确认</translation>
+        <source>This address received %1 xtendcash, but the transaction is not yet mined</source>
+        <translation>这个地址将收到 %1 个xtendcash币, 但这笔交易尚未被矿工确认</translation>
     </message>
     <message>
         <location filename="../main.qml" line="861"/>
@@ -3392,8 +3392,8 @@ Description: </source>
         <translation>程序设置向导</translation>
     </message>
     <message>
-        <source>Loki</source>
-        <translation type="vanished">Loki</translation>
+        <source>Xtendcash</source>
+        <translation type="vanished">Xtendcash</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1454"/>

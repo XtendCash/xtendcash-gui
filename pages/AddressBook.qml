@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -30,8 +30,8 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 import "../components"
-import LokiComponents.AddressBook 1.0
-import LokiComponents.AddressBookModel 1.0
+import XtendcashComponents.AddressBook 1.0
+import XtendcashComponents.AddressBookModel 1.0
 
 Rectangle {
     id: root

@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -29,10 +29,10 @@
 
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
-import LokiComponents.Clipboard 1.0
-import LokiComponents.AddressBookModel 1.0
+import XtendcashComponents.Clipboard 1.0
+import XtendcashComponents.AddressBookModel 1.0
 
-import "../components" as LokiComponents
+import "../components" as XtendcashComponents
 
 ListView {
     id: listView
@@ -155,16 +155,16 @@ ListView {
                 Layout.topMargin: 20 * scaleRatio
                 Layout.leftMargin: 10 * scaleRatio
                 Text {
-                    font.family: LokiComponents.Style.fontMedium.name
+                    font.family: XtendcashComponents.Style.fontMedium.name
                     font.pixelSize: 14 * scaleRatio
-                    color: LokiComponents.Style.defaultFontColor
+                    color: XtendcashComponents.Style.defaultFontColor
                     text: date
                 }
 
                 Text {
-                    font.family: LokiComponents.Style.fontRegular.name
+                    font.family: XtendcashComponents.Style.fontRegular.name
                     font.pixelSize: 14 * scaleRatio
-                    color: LokiComponents.Style.dimmedFontColor
+                    color: XtendcashComponents.Style.dimmedFontColor
                     text: time
                 }
 
@@ -172,7 +172,7 @@ ListView {
                 Text {
                     visible: confirmations < confirmationsRequired || isPending
                     Layout.leftMargin: 5 * scaleRatio
-                    font.family: LokiComponents.Style.fontRegular.name
+                    font.family: XtendcashComponents.Style.fontRegular.name
                     font.pixelSize: 14 * scaleRatio
                     color:  (confirmations < confirmationsRequired)? "#FF6C3C" : "#545454"
                     text: {
@@ -196,7 +196,7 @@ ListView {
                 Text {
                     font.family: "Arial"
                     font.pixelSize: 14 * scaleRatio
-                    color: isOut ? LokiComponents.Style.defaultFontColor : "#2eb358"
+                    color: isOut ? XtendcashComponents.Style.defaultFontColor : "#2eb358"
                     text: isOut ? "↓" : "↑"
                 }
 
@@ -204,7 +204,7 @@ ListView {
                     id: amountText
                     font.family: "Arial"
                     font.pixelSize: 18 * scaleRatio
-                    color: isOut ? LokiComponents.Style.defaultFontColor : "#2eb358"
+                    color: isOut ? XtendcashComponents.Style.defaultFontColor : "#2eb358"
                     text:  displayAmount
                 }
             }

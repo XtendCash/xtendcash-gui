@@ -31,7 +31,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.0
 
 import "../../js/Utils.js" as Utils
-import "../../components" as LokiComponents
+import "../../components" as XtendcashComponents
 
 
 Rectangle {
@@ -56,15 +56,15 @@ Rectangle {
 //            Layout.preferredHeight: 1 * scaleRatio
 //            Layout.fillWidth: true
 //            Layout.bottomMargin: 8 * scaleRatio
-//            color: LokiComponents.Style.dividerColor
-//            opacity: LokiComponents.Style.dividerOpacity
+//            color: XtendcashComponents.Style.dividerColor
+//            opacity: XtendcashComponents.Style.dividerOpacity
 //        }
 
         Text {
             Layout.bottomMargin: 2 * scaleRatio
-            color: LokiComponents.Style.defaultFontColor
+            color: XtendcashComponents.Style.defaultFontColor
             font.pixelSize: 18 * scaleRatio
-            font.family: LokiComponents.Style.fontRegular.name
+            font.family: XtendcashComponents.Style.fontRegular.name
             text: qsTr("Log Level") + translationManager.emptyString
         }
 
@@ -89,7 +89,7 @@ Rectangle {
                      ListElement { column1: "custom"; }
                 }
 
-                LokiComponents.StandardDropdown {
+                XtendcashComponents.StandardDropdown {
                     id: logLevelDropdown
                     dataModel: logLevel
                     itemTopMargin: 2 * scaleRatio
@@ -114,7 +114,7 @@ Rectangle {
                 }
             }
 
-            LokiComponents.LineEdit {
+            XtendcashComponents.LineEdit {
                 id: logCategories
                 visible: persistentSettings.logLevel === 5
                 Layout.fillWidth: true
@@ -137,9 +137,9 @@ Rectangle {
         Text {
             Layout.topMargin: 10 * scaleRatio
             Layout.bottomMargin: 2 * scaleRatio
-            color: LokiComponents.Style.defaultFontColor
+            color: XtendcashComponents.Style.defaultFontColor
             font.pixelSize: 18 * scaleRatio
-            font.family: LokiComponents.Style.fontRegular.name
+            font.family: XtendcashComponents.Style.fontRegular.name
             text: qsTr("Daemon Log") + translationManager.emptyString
         }
 
@@ -151,8 +151,8 @@ Rectangle {
             TextArea.flickable: TextArea {
                 id : consoleArea
                 anchors.fill: parent
-                color: LokiComponents.Style.defaultFontColor
-                selectionColor: LokiComponents.Style.dimmedFontColor
+                color: XtendcashComponents.Style.defaultFontColor
+                selectionColor: XtendcashComponents.Style.dimmedFontColor
                 textFormat: TextEdit.RichText
                 selectByMouse: true
                 selectByKeyboard: true
@@ -218,7 +218,7 @@ Rectangle {
             }
         }
 
-        LokiComponents.LineEdit {
+        XtendcashComponents.LineEdit {
             id: sendCommandText
             Layout.fillWidth: true
             fontBold: false

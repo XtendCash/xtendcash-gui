@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -30,14 +30,14 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 
-import "../components" as LokiComponents
+import "../components" as XtendcashComponents
 
 Item {
     id: button
     property string rightIcon: ""
     property string rightIconInactive: ""
     property string icon: ""
-    property string textColor: button.enabled? LokiComponents.Style.buttonTextColor: LokiComponents.Style.buttonTextColorDisabled
+    property string textColor: button.enabled? XtendcashComponents.Style.buttonTextColor: XtendcashComponents.Style.buttonTextColorDisabled
     property string textAlign: rightIcon !== "" ? "left" : "center"
     property bool small: false
     property alias text: label.text
@@ -74,7 +74,7 @@ Item {
         anchors.left: parent.left
         anchors.right: parent.right
         height: parent.height - 1
-        color: parent.enabled ? LokiComponents.Style.buttonBackgroundColor : LokiComponents.Style.buttonBackgroundColorDisabled
+        color: parent.enabled ? XtendcashComponents.Style.buttonBackgroundColor : XtendcashComponents.Style.buttonBackgroundColorDisabled
         border.width: parent.focus ? 1 : 0
 
         MouseArea {
@@ -86,12 +86,12 @@ Item {
 
             // possibly do some hover effects here
             onEntered: {
-                if(button.enabled) parent.color = LokiComponents.Style.buttonBackgroundColorHover;
-                else parent.color = LokiComponents.Style.buttonBackgroundColorDisabledHover;
+                if(button.enabled) parent.color = XtendcashComponents.Style.buttonBackgroundColorHover;
+                else parent.color = XtendcashComponents.Style.buttonBackgroundColorDisabledHover;
             }
             onExited: {
-                if(button.enabled) parent.color = LokiComponents.Style.buttonBackgroundColor;
-                else parent.color = LokiComponents.Style.buttonBackgroundColorDisabled;
+                if(button.enabled) parent.color = XtendcashComponents.Style.buttonBackgroundColor;
+                else parent.color = XtendcashComponents.Style.buttonBackgroundColorDisabled;
             }
         }
     }
@@ -103,7 +103,7 @@ Item {
         anchors.right: parent.right
         horizontalAlignment: textAlign === "center" ? Text.AlignHCenter : Text.AlignLeft
         anchors.leftMargin: textAlign === "center" ? 0 : 11
-        font.family: LokiComponents.Style.fontBold.name
+        font.family: XtendcashComponents.Style.fontBold.name
         font.bold: true
         font.pixelSize: buttonArea.pressed ? button.fontSize - 1 : button.fontSize
         color: parent.textColor

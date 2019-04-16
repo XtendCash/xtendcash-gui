@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 //
 // All rights reserved.
@@ -34,7 +34,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls.Styles 1.4
 import QtQuick.Window 2.0
 
-import "../components" as LokiComponents
+import "../components" as XtendcashComponents
 
 Item {
     id: root
@@ -84,9 +84,9 @@ Item {
                 Layout.fillWidth: true
 
                 font.pixelSize: 16 * scaleRatio
-                font.family: LokiComponents.Style.fontLight.name
+                font.family: XtendcashComponents.Style.fontLight.name
 
-                color: LokiComponents.Style.defaultFontColor
+                color: XtendcashComponents.Style.defaultFontColor
             }
 
             TextField {
@@ -97,15 +97,15 @@ Item {
                 anchors.left: parent.left
                 horizontalAlignment: TextInput.AlignLeft
                 verticalAlignment: TextInput.AlignVCenter
-                font.family: LokiComponents.Style.fontLight.name
+                font.family: XtendcashComponents.Style.fontLight.name
                 font.pixelSize: 24 * scaleRatio
                 KeyNavigation.tab: okButton
                 bottomPadding: 10
                 leftPadding: 10
                 topPadding: 10
-                color: LokiComponents.Style.defaultFontColor
-                selectionColor: LokiComponents.Style.dimmedFontColor
-                selectedTextColor: LokiComponents.Style.defaultFontColor
+                color: XtendcashComponents.Style.defaultFontColor
+                selectionColor: XtendcashComponents.Style.dimmedFontColor
+                selectedTextColor: XtendcashComponents.Style.defaultFontColor
 
                 background: Rectangle {
                     radius: 2
@@ -131,7 +131,7 @@ Item {
                 Layout.topMargin: 16
                 Layout.alignment: Qt.AlignRight
 
-                LokiComponents.StandardButton {
+                XtendcashComponents.StandardButton {
                     id: cancelButton
                     small: true
                     width: 120
@@ -143,7 +143,7 @@ Item {
                         root.rejected()
                     }
                 }
-                LokiComponents.StandardButton {
+                XtendcashComponents.StandardButton {
                     id: okButton
                     small: true
                     width: 120

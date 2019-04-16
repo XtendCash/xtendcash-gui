@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -30,7 +30,7 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 
-import "../components" as LokiComponents
+import "../components" as XtendcashComponents
 
 RowLayout {
     id: checkBox
@@ -57,7 +57,7 @@ RowLayout {
             height: checkBox.height - 1
             y: 0
             color: "transparent"
-            border.color: checkBox.checked ? LokiComponents.Style.heroGreen : Qt.rgba(1, 1, 1, 0.25)
+            border.color: checkBox.checked ? XtendcashComponents.Style.heroGreen : Qt.rgba(1, 1, 1, 0.25)
         }
 
         Rectangle {
@@ -85,9 +85,9 @@ RowLayout {
 
         Text {
             id: label
-            font.family: LokiComponents.Style.fontRegular.name
+            font.family: XtendcashComponents.Style.fontRegular.name
             font.pixelSize: checkBox.fontSize
-            color: LokiComponents.Style.defaultFontColor
+            color: XtendcashComponents.Style.defaultFontColor
             wrapMode: Text.Wrap
             Layout.fillWidth: true
             anchors.left: backgroundRect.right

@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -30,11 +30,11 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
-import LokiComponents.Clipboard 1.0
-import LokiComponents.PendingTransaction 1.0
-import LokiComponents.Wallet 1.0
+import XtendcashComponents.Clipboard 1.0
+import XtendcashComponents.PendingTransaction 1.0
+import XtendcashComponents.Wallet 1.0
 import "../components"
-import "../components" as LokiComponents
+import "../components" as XtendcashComponents
 import "." 1.0
 
 
@@ -114,7 +114,7 @@ Rectangle {
       RowLayout {
           visible: root.warningContent !== ""
 
-          LokiComponents.WarningBox {
+          XtendcashComponents.WarningBox {
               text: warningContent
               onLinkActivated: {
                   appWindow.startDaemon(appWindow.persistentSettings.daemonFlags);
@@ -489,7 +489,7 @@ Rectangle {
     FileDialog {
         id: signTxDialog
         title: qsTr("Please choose a file") + translationManager.emptyString
-        folder: "file://" + lokiAccountsDir
+        folder: "file://" + xtendcashAccountsDir
         nameFilters: [ "Unsigned transfers (*)"]
 
         onAccepted: {
@@ -550,7 +550,7 @@ Rectangle {
     FileDialog {
         id: submitTxDialog
         title: qsTr("Please choose a file") + translationManager.emptyString
-        folder: "file://" + lokiAccountsDir
+        folder: "file://" + xtendcashAccountsDir
         nameFilters: [ "signed transfers (*)"]
 
         onAccepted: {
@@ -562,7 +562,7 @@ Rectangle {
                 informationPopup.open();
             } else {
                 informationPopup.title = qsTr("Information") + translationManager.emptyString
-                informationPopup.text  = qsTr("Loki sent successfully") + translationManager.emptyString
+                informationPopup.text  = qsTr("Xtendcash sent successfully") + translationManager.emptyString
                 informationPopup.icon  = StandardIcon.Information
                 informationPopup.onCloseCallback = null
                 informationPopup.open();

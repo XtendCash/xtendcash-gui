@@ -2,8 +2,8 @@ import QtQuick 2.2
 import QtGraphicalEffects 1.0
 import QtQuick.Layouts 1.1
 
-import LokiComponents.Wallet 1.0
-import "../components" as LokiComponents
+import XtendcashComponents.Wallet 1.0
+import "../components" as XtendcashComponents
 
 // BasicPanel header
 Rectangle {
@@ -21,7 +21,7 @@ Rectangle {
         anchors.verticalCenterOffset: -5
         anchors.left: parent.left
         anchors.leftMargin: 50 * scaleRatio
-        source: "../images/LokiLogo2.png"
+        source: "../images/XtendcashLogo2.png"
     }
 
     Image {
@@ -30,7 +30,7 @@ Rectangle {
         anchors.verticalCenter: parent.verticalCenter
         anchors.left: parent.left
         anchors.leftMargin: 40 * scaleRatio
-        source: "../images/LokiIcon.png"
+        source: "../images/XtendcashIcon.png"
     }
 
     Grid {

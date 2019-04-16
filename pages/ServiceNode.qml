@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2018, The Monero Project
 //
 // All rights reserved.
@@ -34,7 +34,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
 
 import "../components"
-import LokiComponents.Clipboard 1.0
+import XtendcashComponents.Clipboard 1.0
 
 Rectangle {
     property alias panelHeight: mainLayout.height

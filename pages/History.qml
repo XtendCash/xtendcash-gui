@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -30,11 +30,11 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
-import LokiComponents.Wallet 1.0
-import LokiComponents.WalletManager 1.0
-import LokiComponents.TransactionHistory 1.0
-import LokiComponents.TransactionInfo 1.0
-import LokiComponents.TransactionHistoryModel 1.0
+import XtendcashComponents.Wallet 1.0
+import XtendcashComponents.WalletManager 1.0
+import XtendcashComponents.TransactionHistory 1.0
+import XtendcashComponents.TransactionInfo 1.0
+import XtendcashComponents.TransactionHistoryModel 1.0
 
 import "../components"
 

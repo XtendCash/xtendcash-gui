@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 //
 // All rights reserved.
@@ -34,7 +34,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls.Styles 1.4
 import QtQuick.Window 2.0
 
-import "../components" as LokiComponents
+import "../components" as XtendcashComponents
 
 Window {
     id: root
@@ -94,7 +94,7 @@ Window {
             Text {
                 text: qsTr("Starting local node in %1 seconds").arg(countDown);
                 font.pixelSize: 18
-                color: LokiComponents.Style.defaultFontColor
+                color: XtendcashComponents.Style.defaultFontColor
                 Layout.alignment: Qt.AlignHCenter
                 Layout.fillWidth: true
                 horizontalAlignment: Text.AlignHCenter
@@ -107,7 +107,7 @@ Window {
             spacing: 60
             Layout.alignment: Qt.AlignHCenter
 
-            LokiComponents.StandardButton {
+            XtendcashComponents.StandardButton {
                 id: okButton
                 visible: true
                 fontSize: 14
@@ -121,7 +121,7 @@ Window {
                 }
             }
 
-            LokiComponents.StandardButton {
+            XtendcashComponents.StandardButton {
                 id: cancelButton
                 fontSize: 14
                 text: qsTr("Use Custom Settings")

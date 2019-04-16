@@ -29,7 +29,7 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 
-import "../components" as LokiComponents
+import "../components" as XtendcashComponents
 
 RowLayout {
     id: radioButton
@@ -40,8 +40,8 @@ RowLayout {
     signal clicked()
     height: 26 * scaleRatio
     // legacy properties
-    property var checkedColor: LokiComponents.Style.heroGreen
-    property var borderColor: checked ? LokiComponents.Style.heroGreen : Qt.rgba(1, 1, 1, 0.25)
+    property var checkedColor: XtendcashComponents.Style.heroGreen
+    property var borderColor: checked ? XtendcashComponents.Style.heroGreen : Qt.rgba(1, 1, 1, 0.25)
 
     function toggle(){
         radioButton.checked = !radioButton.checked
@@ -84,8 +84,8 @@ RowLayout {
             id: label
             anchors.left: button.right
             anchors.leftMargin: !isMobile ? 10 : 8
-            color: LokiComponents.Style.defaultFontColor
-            font.family: LokiComponents.Style.fontRegular.name
+            color: XtendcashComponents.Style.defaultFontColor
+            font.family: XtendcashComponents.Style.fontRegular.name
             font.pixelSize: radioButton.fontSize
             wrapMode: Text.Wrap
 

@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 //
 // All rights reserved.
@@ -30,7 +30,7 @@
 import QtQuick 2.0
 import QtMultimedia 5.4
 import QtQuick.Dialogs 1.2
-import LokiComponents.QRCodeScanner 1.0
+import XtendcashComponents.QRCodeScanner 1.0
 
 Rectangle {
     id : root

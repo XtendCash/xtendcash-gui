@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2015, The Monero Project
 //
 // All rights reserved.
@@ -30,11 +30,11 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
-import LokiComponents.Clipboard 1.0
-import LokiComponents.PendingTransaction 1.0
-import LokiComponents.Wallet 1.0
+import XtendcashComponents.Clipboard 1.0
+import XtendcashComponents.PendingTransaction 1.0
+import XtendcashComponents.Wallet 1.0
 
-import "../components" as LokiComponents
+import "../components" as XtendcashComponents
 
 
 Rectangle{
@@ -51,20 +51,20 @@ Rectangle{
     Text {
         id: label1
         anchors.left: parent.left
-        font.family: LokiComponents.Style.fontRegular.name
+        font.family: XtendcashComponents.Style.fontRegular.name
         font.pixelSize: 14 * scaleRatio
         text: labelHeader
-        color: LokiComponents.Style.dimmedFontColor
+        color: XtendcashComponents.Style.dimmedFontColor
     }
 
     Text {
         id: label2
         anchors.left: parent.left
         anchors.top: label1.bottom
-        font.family: LokiComponents.Style.fontRegular.name
+        font.family: XtendcashComponents.Style.fontRegular.name
         font.pixelSize: 14 * scaleRatio
         text: labelValue
-        color: LokiComponents.Style.dimmedFontColor
+        color: XtendcashComponents.Style.dimmedFontColor
     }
 
     // hover effect / copy value
@@ -74,12 +74,12 @@ Rectangle{
         anchors.fill: parent
         cursorShape: Qt.PointingHandCursor
         onEntered: {
-            label1.color = LokiComponents.Style.defaultFontColor;
-            label2.color = LokiComponents.Style.defaultFontColor;
+            label1.color = XtendcashComponents.Style.defaultFontColor;
+            label2.color = XtendcashComponents.Style.defaultFontColor;
         }
         onExited: {
-            label1.color = LokiComponents.Style.dimmedFontColor;
-            label2.color = LokiComponents.Style.dimmedFontColor;
+            label1.color = XtendcashComponents.Style.dimmedFontColor;
+            label2.color = XtendcashComponents.Style.dimmedFontColor;
         }
         onClicked: {
             if(copyValue){

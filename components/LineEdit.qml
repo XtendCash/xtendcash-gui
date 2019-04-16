@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -29,7 +29,7 @@
 
 import QtQuick 2.0
 
-import "../components" as LokiComponents
+import "../components" as XtendcashComponents
 
 Item {
     id: item
@@ -37,10 +37,10 @@ Item {
 
     property alias placeholderText: placeholderLabel.text
     property bool placeholderCenter: false
-    property string placeholderFontFamily: LokiComponents.Style.fontRegular.name
+    property string placeholderFontFamily: XtendcashComponents.Style.fontRegular.name
     property bool placeholderFontBold: false
     property int placeholderFontSize: 18 * scaleRatio
-    property string placeholderColor: LokiComponents.Style.defaultFontColor
+    property string placeholderColor: XtendcashComponents.Style.defaultFontColor
     property real placeholderOpacity: 0.25
 
     property alias validator: input.validator
@@ -55,9 +55,9 @@ Item {
     property bool borderDisabled: false
     property string borderColor: {
         if(input.activeFocus){
-            return LokiComponents.Style.heroGreen;
+            return XtendcashComponents.Style.heroGreen;
         } else {
-            return LokiComponents.Style.inputBorderColorInActive;
+            return XtendcashComponents.Style.inputBorderColorInActive;
         }
     }
 
@@ -108,11 +108,11 @@ Item {
         anchors.top: parent.top
         anchors.left: parent.left
         anchors.topMargin: 2 * scaleRatio
-        font.family: LokiComponents.Style.fontLight.name
+        font.family: XtendcashComponents.Style.fontLight.name
         font.pixelSize: labelFontSize
         font.bold: labelFontBold
         textFormat: Text.RichText
-        color: LokiComponents.Style.defaultFontColor
+        color: XtendcashComponents.Style.defaultFontColor
         onLinkActivated: item.labelLinkActivated()
 
         MouseArea {
@@ -122,7 +122,7 @@ Item {
         }
     }
 
-    LokiComponents.LabelButton {
+    XtendcashComponents.LabelButton {
         id: copyButtonId
         text: qsTr("Copy")
         anchors.right: parent.right
@@ -190,11 +190,11 @@ Item {
             anchors.topMargin: 8 * scaleRatio
             anchors.left: parent.left
             anchors.leftMargin: 12 * scaleRatio
-            source: "../images/LokiIcon-28x28.png"
+            source: "../images/XtendcashIcon-28x28.png"
             visible: false
         }
 
-        LokiComponents.Input {
+        XtendcashComponents.Input {
             id: input
             anchors.fill: parent
             anchors.leftMargin: inlineIcon.visible ? 38 : 6 * scaleRatio
@@ -207,7 +207,7 @@ Item {
             bottomPadding: 10 * scaleRatio
         }
 
-        LokiComponents.InlineButton {
+        XtendcashComponents.InlineButton {
             id: inlineButtonId
             visible: item.inlineButtonText ? true : false
             anchors.right: parent.right

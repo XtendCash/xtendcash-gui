@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 //
 // All rights reserved.
@@ -33,7 +33,7 @@ import QtQuick.Controls.Styles 1.4
 import QtQuick.Layouts 1.1
 
 import "../components"
-import LokiComponents.Clipboard 1.0
+import XtendcashComponents.Clipboard 1.0
 
 import "../js/TxUtils.js" as TxUtils
 

@@ -29,7 +29,7 @@
 import QtQuick 2.7
 import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.0
-import "../../components" as LokiComponents
+import "../../components" as XtendcashComponents
 
 Rectangle{
     color: "transparent"
@@ -63,8 +63,8 @@ Rectangle{
                 anchors.left: parent.left
                 anchors.right: parent.right
                 height: 1
-                color: LokiComponents.Style.dividerColor
-                opacity: LokiComponents.Style.dividerOpacity
+                color: XtendcashComponents.Style.dividerColor
+                opacity: XtendcashComponents.Style.dividerOpacity
             }
 
             Rectangle {
@@ -108,7 +108,7 @@ Rectangle{
                     anchors.top: parent.top
                     color: "white"
                     font.bold: true
-                    font.family: LokiComponents.Style.fontRegular.name
+                    font.family: XtendcashComponents.Style.fontRegular.name
                     font.pixelSize: 16 * scaleRatio
                     text: qsTr("Local Node") + translationManager.emptyString
                 }
@@ -119,8 +119,8 @@ Rectangle{
                     anchors.topMargin: 4 * scaleRatio
                     anchors.left: localNodeIcon.right
                     anchors.leftMargin: 14 * scaleRatio
-                    color: LokiComponents.Style.dimmedFontColor
-                    font.family: LokiComponents.Style.fontRegular.name
+                    color: XtendcashComponents.Style.dimmedFontColor
+                    font.family: XtendcashComponents.Style.fontRegular.name
                     font.pixelSize: 15 * scaleRatio
                     horizontalAlignment: TextInput.AlignLeft
                     selectByMouse: false
@@ -162,8 +162,8 @@ Rectangle{
                 anchors.left: parent.left
                 anchors.right: parent.right
                 height: 1
-                color: LokiComponents.Style.dividerColor
-                opacity: LokiComponents.Style.dividerOpacity
+                color: XtendcashComponents.Style.dividerColor
+                opacity: XtendcashComponents.Style.dividerOpacity
             }
 
             Rectangle {
@@ -207,7 +207,7 @@ Rectangle{
                     anchors.top: parent.top
                     color: "white"
                     font.bold: true
-                    font.family: LokiComponents.Style.fontRegular.name
+                    font.family: XtendcashComponents.Style.fontRegular.name
                     font.pixelSize: 16 * scaleRatio
                     text: qsTr("Remote Node") + translationManager.emptyString
                 }
@@ -218,8 +218,8 @@ Rectangle{
                     anchors.topMargin: 4 * scaleRatio
                     anchors.left: remoteNodeIcon.right
                     anchors.leftMargin: 14 * scaleRatio
-                    color: LokiComponents.Style.dimmedFontColor
-                    font.family: LokiComponents.Style.fontRegular.name
+                    color: XtendcashComponents.Style.dimmedFontColor
+                    font.family: XtendcashComponents.Style.fontRegular.name
                     font.pixelSize: 15 * scaleRatio
                     activeFocusOnPress: false
                     horizontalAlignment: TextInput.AlignLeft
@@ -228,7 +228,7 @@ Rectangle{
                     textMargin: 0
                     leftPadding: 0
                     topPadding: 0
-                    text: qsTr("Uses a third-party server to connect to the Loki network. Less secure, but easier on your computer.") + translationManager.emptyString
+                    text: qsTr("Uses a third-party server to connect to the Xtendcash network. Less secure, but easier on your computer.") + translationManager.emptyString
                     width: parent.width - (remoteNodeIcon.width + remoteNodeIcon.anchors.leftMargin + anchors.leftMargin)
 
                     // @TODO: Legacy. Remove after Qt 5.8.
@@ -257,8 +257,8 @@ Rectangle{
                 anchors.right: parent.right
                 anchors.bottom: parent.bottom
                 height: 1
-                color: LokiComponents.Style.dividerColor
-                opacity: LokiComponents.Style.dividerOpacity
+                color: XtendcashComponents.Style.dividerColor
+                opacity: XtendcashComponents.Style.dividerOpacity
             }
         }
 
@@ -270,18 +270,18 @@ Rectangle{
             spacing: 5 * scaleRatio
             visible: !isMobile && persistentSettings.useRemoteNode
 
-            LokiComponents.WarningBox {
+            XtendcashComponents.WarningBox {
                 Layout.topMargin: 26 * scaleRatio
                 Layout.bottomMargin: 6 * scaleRatio
-                text: qsTr("To find other remote nodes, type 'Loki remote node' into your favorite search engine. Please ensure the node is run by a trusted third-party.") + translationManager.emptyString
+                text: qsTr("To find other remote nodes, type 'Xtendcash remote node' into your favorite search engine. Please ensure the node is run by a trusted third-party.") + translationManager.emptyString
             }
 
             Text {
                 Layout.fillWidth: true
                 Layout.preferredHeight: 20 * scaleRatio
                 Layout.topMargin: 8 * scaleRatio
-                color: LokiComponents.Style.defaultFontColor
-                font.family: LokiComponents.Style.fontRegular.name
+                color: XtendcashComponents.Style.defaultFontColor
+                font.family: XtendcashComponents.Style.fontRegular.name
                 font.pixelSize: 16 * scaleRatio
                 text: qsTr("Default Remote Node(s)") + translationManager.emptyString
             }
@@ -289,15 +289,15 @@ Rectangle{
             Rectangle {
                 Layout.preferredHeight: 1 * scaleRatio
                 Layout.fillWidth: true
-                color: LokiComponents.Style.dividerColor
-                opacity: LokiComponents.Style.dividerOpacity
+                color: XtendcashComponents.Style.dividerColor
+                opacity: XtendcashComponents.Style.dividerOpacity
             }
 
             Text {
                 visible: (getRemoteNodeList().length == 0)
                 Layout.fillWidth: true
-                color: LokiComponents.Style.defaultFontColor
-                font.family: LokiComponents.Style.fontRegular.name
+                color: XtendcashComponents.Style.defaultFontColor
+                font.family: XtendcashComponents.Style.fontRegular.name
                 font.pixelSize: 16 * scaleRatio
                 text: qsTr("No default remote nodes available") + translationManager.emptyString
                 Layout.bottomMargin: 6 * scaleRatio
@@ -322,7 +322,7 @@ Rectangle{
                         height: 34 * scaleRatio
                         Layout.fillWidth: true
 
-                        LokiComponents.StandardButton {
+                        XtendcashComponents.StandardButton {
                             id: defaultNodeButton
                             anchors.left: parent.left
                             small: true
@@ -347,8 +347,8 @@ Rectangle{
                             anchors.left: defaultNodeButton.right
                             anchors.leftMargin: 8 * scaleRatio
                             anchors.verticalCenter: defaultNodeButton.verticalCenter
-                            color: LokiComponents.Style.defaultFontColor
-                            font.family: LokiComponents.Style.fontRegular.name
+                            color: XtendcashComponents.Style.defaultFontColor
+                            font.family: XtendcashComponents.Style.fontRegular.name
                             font.pixelSize: 14 * scaleRatio
                             text: "Address: " + modelData
                         }
@@ -358,8 +358,8 @@ Rectangle{
                 Rectangle {
                     Layout.preferredHeight: 1 * scaleRatio
                     Layout.fillWidth: true
-                    color: LokiComponents.Style.dividerColor
-                    opacity: LokiComponents.Style.dividerOpacity
+                    color: XtendcashComponents.Style.dividerColor
+                    opacity: XtendcashComponents.Style.dividerOpacity
                 }
             }
 
@@ -373,7 +373,7 @@ Rectangle{
             Layout.topMargin: 20
             visible: !isMobile && persistentSettings.useRemoteNode
 
-            LokiComponents.RemoteNodeEdit {
+            XtendcashComponents.RemoteNodeEdit {
                 id: remoteNodeEdit
                 Layout.minimumWidth: 200 * scaleRatio
 
@@ -398,7 +398,7 @@ Rectangle{
                 columns: (isMobile) ? 1 : 2
                 columnSpacing: 32
 
-                LokiComponents.LineEdit {
+                XtendcashComponents.LineEdit {
                     id: daemonUsername
                     Layout.fillWidth: true
                     labelText: "Daemon Username"
@@ -407,7 +407,7 @@ Rectangle{
                     placeholderFontSize: 15 * scaleRatio
                 }
 
-                LokiComponents.LineEdit {
+                XtendcashComponents.LineEdit {
                     id: daemonPassword
                     Layout.fillWidth: true
                     labelText: "Daemon Password"
@@ -420,7 +420,7 @@ Rectangle{
             Rectangle {
                 id: rectConnectRemote
                 Layout.topMargin: 12 * scaleRatio
-                color: LokiComponents.Style.buttonBackgroundColor
+                color: XtendcashComponents.Style.buttonBackgroundColor
                 width: btnConnectRemote.width + 40
                 height: 26
 
@@ -428,8 +428,8 @@ Rectangle{
                     id: btnConnectRemote
                     anchors.verticalCenter: parent.verticalCenter
                     anchors.horizontalCenter: parent.horizontalCenter
-                    color: LokiComponents.Style.defaultFontColor
-                    font.family: LokiComponents.Style.fontRegular.name
+                    color: XtendcashComponents.Style.defaultFontColor
+                    font.family: XtendcashComponents.Style.fontRegular.name
                     font.pixelSize: 14 * scaleRatio
                     font.bold: true
                     text: qsTr("Connect") + translationManager.emptyString
@@ -463,7 +463,7 @@ Rectangle{
             visible: !isMobile && !persistentSettings.useRemoteNode
 
             RowLayout {
-                LokiComponents.LineEditMulti {
+                XtendcashComponents.LineEditMulti {
                     id: blockchainFolder
                     Layout.preferredWidth: 200
                     Layout.fillWidth: true
@@ -491,7 +491,7 @@ Rectangle{
             RowLayout {
                 id: daemonFlagsRow
 
-                LokiComponents.LineEditMulti {
+                XtendcashComponents.LineEditMulti {
                     id: daemonFlags
                     Layout.preferredWidth:  200
                     Layout.fillWidth: true
@@ -509,7 +509,7 @@ Rectangle{
                 ColumnLayout {
                     Layout.fillWidth: true
 
-                    LokiComponents.RemoteNodeEdit {
+                    XtendcashComponents.RemoteNodeEdit {
                         id: bootstrapNodeEdit
                         Layout.minimumWidth: 100 * scaleRatio
                         Layout.bottomMargin: 20 * scaleRatio
@@ -538,7 +538,7 @@ Rectangle{
                 }
             }
 
-            LokiComponents.StandardButton {
+            XtendcashComponents.StandardButton {
                 id: startDaemonButton
                 small: true
                 visible: !appWindow.daemonRunning
@@ -550,7 +550,7 @@ Rectangle{
                 }
             }
 
-            LokiComponents.StandardButton {
+            XtendcashComponents.StandardButton {
                 id: stopDaemonButton
                 small: true
                 visible: appWindow.daemonRunning

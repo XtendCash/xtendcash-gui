@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -69,7 +69,7 @@ ColumnLayout {
             font.pixelSize: 28 * scaleRatio
             color: Style.defaultFontColor
             wrapMode: Text.Wrap
-            text: qsTr("Welcome To Loki!") + translationManager.emptyString
+            text: qsTr("Welcome To Xtendcash!") + translationManager.emptyString
         }
 
         Text {

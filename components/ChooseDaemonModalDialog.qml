@@ -1,5 +1,5 @@
 
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2018, The Monero Project
 //
 // All rights reserved.
@@ -35,8 +35,8 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls.Styles 1.4
 import QtQuick.Window 2.0
 
-import LokiComponents.NetworkType 1.0
-import "../components" as LokiComponents
+import XtendcashComponents.NetworkType 1.0
+import "../components" as XtendcashComponents
 
 Item {
     id: root
@@ -79,14 +79,14 @@ Item {
             Layout.leftMargin: inactiveOverlay.width * 0.075 // TODO(doyle): I cant get this to horizontally align. help me pls
 
             Label {
-                text: qsTr("Please choose how to connect to the Loki Blockchain")
+                text: qsTr("Please choose how to connect to the Xtendcash Blockchain")
                 anchors.left: parent.left
                 Layout.fillWidth: true
                 Layout.alignment: Qt.AlignHCenter
                 horizontalAlignment: Text.AlignHCenter
                 font.pixelSize: 16 * scaleRatio
-                font.family: LokiComponents.Style.fontLight.name
-                color: LokiComponents.Style.defaultFontColor
+                font.family: XtendcashComponents.Style.fontLight.name
+                color: XtendcashComponents.Style.defaultFontColor
             }
 
             RowLayout {
@@ -94,7 +94,7 @@ Item {
                 spacing: 16 * scaleRatio
                 Layout.topMargin: 16
 
-                LokiComponents.StandardButton {
+                XtendcashComponents.StandardButton {
                     id: defaultRemoteNodeButton
                     height: 48 * scaleRatio
                     enabled: appWindow.getRemoteNodeList().length > 0
@@ -110,7 +110,7 @@ Item {
                     }
                 }
 
-                LokiComponents.StandardButton {
+                XtendcashComponents.StandardButton {
                     id: localNodeButton
                     height: 48 * scaleRatio
                     text: qsTr("Start Local Daemon\n(Downloads blockchain, slow but private)") + translationManager.emptyString
@@ -121,7 +121,7 @@ Item {
                     }
                 }
 
-                LokiComponents.StandardButton {
+                XtendcashComponents.StandardButton {
                     id: customSettingsButton
                     height: 48 * scaleRatio
                     text: qsTr("Use Custom Settings\n(Setup later in settings)") + translationManager.emptyString

@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2015, The Monero Project
 //
 // All rights reserved.
@@ -30,7 +30,7 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 
-import "../components" as LokiComponents
+import "../components" as XtendcashComponents
 
 ColumnLayout {
     id: item
@@ -44,26 +44,26 @@ ColumnLayout {
     property alias placeholderText: placeholderLabel.text
 
     property bool placeholderCenter: false
-    property string placeholderFontFamily: LokiComponents.Style.fontRegular.name
+    property string placeholderFontFamily: XtendcashComponents.Style.fontRegular.name
     property bool placeholderFontBold: false
     property int placeholderFontSize: 18 * scaleRatio
-    property string placeholderColor: LokiComponents.Style.defaultFontColor
+    property string placeholderColor: XtendcashComponents.Style.defaultFontColor
     property real placeholderOpacity: 0.35
 
     property bool borderDisabled: false
     property string borderColor: {
         if(input.error && input.text !== ""){
-            return LokiComponents.Style.inputBorderColorInvalid;
+            return XtendcashComponents.Style.inputBorderColorInvalid;
         } else if(input.activeFocus) {
-            return LokiComponents.Style.heroGreen;
+            return XtendcashComponents.Style.heroGreen;
         } else {
-            return LokiComponents.Style.inputBorderColorInActive;
+            return XtendcashComponents.Style.inputBorderColorInActive;
         }
     }
 
     property bool error: false
 
-    property string labelFontColor: LokiComponents.Style.defaultFontColor
+    property string labelFontColor: XtendcashComponents.Style.defaultFontColor
     property bool labelFontBold: false
     property int labelFontSize: 16 * scaleRatio
     property bool labelButtonVisible: false
@@ -96,11 +96,11 @@ ColumnLayout {
             id: inputLabel
             anchors.top: parent.top
             anchors.left: parent.left
-            font.family: LokiComponents.Style.fontRegular.name
+            font.family: XtendcashComponents.Style.fontRegular.name
             font.pixelSize: item.labelFontSize
             font.bold: labelFontBold
             textFormat: Text.RichText
-            color: LokiComponents.Style.defaultFontColor
+            color: XtendcashComponents.Style.defaultFontColor
             onLinkActivated: inputLabelLinkActivated()
 
             MouseArea {
@@ -110,13 +110,13 @@ ColumnLayout {
             }
         }
 
-        LokiComponents.LabelButton {
+        XtendcashComponents.LabelButton {
             id: labelButton
             onClicked: labelButtonClicked()
             visible: labelButtonVisible
         }
 
-        LokiComponents.LabelButton {
+        XtendcashComponents.LabelButton {
             id: copyButtonId
             visible: copyButton && input.text !== ""
             text: qsTr("Copy")
@@ -132,7 +132,7 @@ ColumnLayout {
         }
     }
 
-    LokiComponents.InputMulti {
+    XtendcashComponents.InputMulti {
         id: input
         readOnly: false
         addressValidation: false

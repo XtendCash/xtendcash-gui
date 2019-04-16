@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2014-2015, The Monero Project
 //
 // All rights reserved.
@@ -31,26 +31,26 @@ import QtQuick.Controls 2.0
 import QtQuick 2.7
 
 import "../js/TxUtils.js" as TxUtils
-import "../components" as LokiComponents
+import "../components" as XtendcashComponents
 
 TextArea {
     property int fontSize: 18 * scaleRatio
     property bool fontBold: false
-    property string fontColor: LokiComponents.Style.defaultFontColor
+    property string fontColor: XtendcashComponents.Style.defaultFontColor
 
     property bool mouseSelection: true
     property bool error: false
     property bool addressValidation: false
 
     id: textArea
-    font.family: LokiComponents.Style.fontRegular.name
+    font.family: XtendcashComponents.Style.fontRegular.name
     color: fontColor
     font.pixelSize: fontSize
     font.bold: fontBold
     horizontalAlignment: TextInput.AlignLeft
     selectByMouse: mouseSelection
-    selectionColor: LokiComponents.Style.dimmedFontColor
-    selectedTextColor: LokiComponents.Style.defaultFontColor
+    selectionColor: XtendcashComponents.Style.dimmedFontColor
+    selectedTextColor: XtendcashComponents.Style.defaultFontColor
 
     onTextChanged: {
         if(addressValidation){

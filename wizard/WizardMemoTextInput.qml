@@ -1,5 +1,5 @@
 import QtQuick 2.0
-import LokiComponents.Clipboard 1.0
+import XtendcashComponents.Clipboard 1.0
 
 import "../components"
 

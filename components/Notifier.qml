@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Loki Project
+// Copyright (c) 2018, The Xtendcash Project
 // Copyright (c) 2017-2018, The Monero Project
 // 
 // All rights reserved.
@@ -29,7 +29,7 @@
 
 import QtQuick 2.0
 import QtQuick.Controls 1.4
-import LokiComponents.Wallet 1.0
+import XtendcashComponents.Wallet 1.0
 
 Item {
     id: item

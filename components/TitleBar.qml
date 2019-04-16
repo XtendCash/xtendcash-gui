@@ -53,7 +53,7 @@ Rectangle {
     property bool showMinimizeButton: false
     property bool showMaximizeButton: false
     property bool showCloseButton: true
-    property bool showLokiLogo: false
+    property bool showXtendcashLogo: false
     property bool small: false
 
     signal closeClicked
@@ -80,7 +80,7 @@ Rectangle {
         width: 125
         height: parent.height
         anchors.centerIn: parent
-        visible: customDecorations && showLokiLogo
+        visible: customDecorations && showXtendcashLogo
         z: parent.z + 1
 
         Image {
@@ -93,7 +93,7 @@ Rectangle {
 
     Label {
         id: titleLabel
-        visible: !showLokiLogo && customDecorations && titleBar.title !== ''
+        visible: !showXtendcashLogo && customDecorations && titleBar.title !== ''
         anchors.centerIn: parent
         fontSize: 18
         text: titleBar.title
