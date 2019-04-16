@@ -1,7 +1,9 @@
 # XtendCash GUI
 
 Copyright (c) 2019 The XtendCash Project
+
 Copyright (c) 2018 The Loki Project
+
 Portions Copyright (c) 2014-2018, The Monero Project
 
 ## Development resources
