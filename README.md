@@ -1,38 +1,39 @@
-# Loki GUI
+# XtendCash GUI
 
+Copyright (c) 2019 The XtendCash Project
 Copyright (c) 2018 The Loki Project
 
 Portions Copyright (c) 2014-2018, The Monero Project
 
 ## Development resources
 
-- Web: [loki.network](https://loki.network)
-- Telegram: [t.me/LokiCommunity](https://t.me/LokiCommunity)
-- Mail: [team@loki.network](mailto:team@loki.network)
-- GitHub: [https://github.com/loki-project/loki](https://github.com/loki-project/loki)
-- Discord: [https://discord.gg/67GXfD6](https://discord.gg/67GXfD6)
+- Web: [xtendcash.com](https://xtendcash.com)
+- Telegram: [t.me/xtendcash](https://t.me/xtendcash)
+- Mail: [team@xtendcash.com](mailto:team@xtendcash.com)
+- GitHub: [https://github.com/XtendCash/XtendCash](https://github.com/XtendCash/XtendCash)
+- Discord: [https://discord.gg/AayaJK](https://discord.gg/AayaJK)
 
 ## Introduction
 
-Loki is a private cryptocurrency based on Monero. Over the course of the coming months, the Loki project aims to offer an incenvised full node layer with a secondary p2p network that offers a private communications layer based on the Signal protocol.
+XtendCash is a private cryptocurrency based on Monero. Over the course of the coming months, the XtendCash project aims to offer an incenvised full node layer with a secondary p2p network that offers a private communications layer based on the Signal protocol.
 
 More information on the project can be found on the website and in the whitepaper.
 
-Loki is an open source project, and we encourage contributions from anyone with something to offer. For more information on contributing, please contact team@loki.network
+XtendCash is an open source project, and we encourage contributions from anyone with something to offer. For more information on contributing, please contact team@XtendCash.network
 
 ## About this project
 
-This is the GUI for the [Loki implementation](https://github.com/loki-project/loki). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of Loki that uses the protocol and network in a compatible manner.
+This is the GUI for the [XtendCash implementation](It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of XtendCash that uses the protocol and network in a compatible manner.
 
 As with many development projects, the repository on Github is considered to be the "staging" area for the latest changes. Before changes are merged into that branch on the main repository, they are tested by individual developers in their own branches, submitted as a pull request, and then subsequently tested by contributors who focus on testing and code reviews. That having been said, the repository should be carefully considered before using it in a production environment, unless there is a patch in the repository for a particular show-stopping issue you are experiencing. It is generally a better idea to use a tagged release for stability.
 
-## Compiling the Loki GUI from source
+## Compiling the XtendCash GUI from source
 
 ### On Linux:
 
 (Tested on Ubuntu 17.10 x64, Ubuntu 18.04 x64 and Gentoo x64)
 
-1. Install Loki dependencies
+1. Install XtendCash dependencies
 
   - For Debian distributions (Debian, Ubuntu, Mint, Tails...)
 
@@ -69,12 +70,12 @@ As with many development projects, the repository on Github is considered to be 
 
 3. Clone repository
 
-    `git clone https://github.com/loki-project/loki-gui.git`
+    `git clone https://github.com/XtendCash/xtendcash-gui.git`
 
 4. Build
 
     ```
-    cd loki-gui
+    cd XtendCash-gui
     ./build.sh
     QT_SELECT=5 ./build.sh
     ```
@@ -87,7 +88,7 @@ The executable can be found in the build/release/bin folder.
 
 2. Install [Homebrew](http://brew.sh/)
 
-3. Install [Loki](https://github.com/loki-project/loki) dependencies:
+3. Install [XtendCash](https://github.com/XtendCash/XtendCash) dependencies:
 
   `brew install boost --c++11`
 
@@ -117,13 +118,13 @@ The executable can be found in the build/release/bin folder.
 
     This is the directory where Qt 5.x is installed on **your** system
 
-6. Grab an up-to-date copy of the loki-gui repository
+6. Grab an up-to-date copy of the XtendCash-gui repository
 
-  `git clone https://github.com/loki-project/loki-gui.git`
+  `git clone https://github.com/XtendCash/xtendcash-gui.git`
 
 7. Go into the repository
 
-  `cd loki-gui`
+  `cd XtendCash-gui`
 
 8. Start the build
 
@@ -146,19 +147,19 @@ More info: http://stackoverflow.com/a/35098040/1683164
 
 ### On Windows:
 
-The Loki GUI on Windows is 64 bits only; 32-bit Windows GUI builds are not officially supported anymore.
+The XtendCash GUI on Windows is 64 bits only; 32-bit Windows GUI builds are not officially supported anymore.
 
 1. Install [MSYS2](https://www.msys2.org/), follow the instructions on that page on how to update system and packages to the latest versions
 
 2. Open an 64-bit MSYS2 shell: Use the *MSYS2 MinGW 64-bit* shortcut, or use the `msys2_shell.cmd` batch file with a `-mingw64` parameter
 
-3. Install MSYS2 packages for Loki dependencies; the needed 64-bit packages have `x86_64` in their names
+3. Install MSYS2 packages for XtendCash dependencies; the needed 64-bit packages have `x86_64` in their names
 
     ```
     pacman -S mingw-w64-x86_64-toolchain make mingw-w64-x86_64-cmake mingw-w64-x86_64-boost mingw-w64-x86_64-openssl mingw-w64-x86_64-zeromq mingw-w64-x86_64-libsodium mingw-w64-x86_64-hidapi
     ```
 
-    You find more details about those dependencies in the [Loki documentation](https://github.com/loki-project/loki). Note that that there is no more need to compile Boost from source; like everything else, you can install it now with a MSYS2 package.
+    You find more details about those dependencies in the [XtendCash documentation](https://github.com/XtendCash/XtendCash). Note that that there is no more need to compile Boost from source; like everything else, you can install it now with a MSYS2 package.
 
 4. Install Qt5
 
@@ -178,13 +179,13 @@ The Loki GUI on Windows is 64 bits only; 32-bit Windows GUI builds are not offic
 
     ```
     cd
-    git clone https://github.com/loki-project/loki-gui.git
+    git clone https://github.com/XtendCash/xtendcash-gui.git
     ```
 
 7. Build
 
     ```
-    cd loki-gui
+    cd XtendCash-gui
     ./build.sh
     source ./build.sh release-static
     cd build
