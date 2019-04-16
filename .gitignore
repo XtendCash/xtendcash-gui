@@ -1,0 +1,13 @@
+*.user
+*.user.*
+translations/*.qm
+build
+version.js
+# IOS stuff below
+moc_*
+*.o
+*.mak
+*.build
+*.xcodeproj
+loki-wallet-gui_plugin_import.cpp
+loki-wallet-gui_qml_plugin_import.cpp
