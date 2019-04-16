@@ -2,4 +2,4 @@
 
 set QMLSCENE_DEVICE=softwarecontext
 
-start /b xtend-wallet-gui.exe
+start /b loki-wallet-gui.exe

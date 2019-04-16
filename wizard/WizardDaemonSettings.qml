@@ -113,9 +113,9 @@ ColumnLayout {
             color: Style.defaultFontColor
             textFormat: Text.RichText
 //            horizontalAlignment: Text.AlignHCenter
-            text: qsTr("To be able to communicate with the XtendCash network your wallet needs to be connected \
+            text: qsTr("To be able to communicate with the Loki network your wallet needs to be connected \
                         <br> \
-                        to a XtendCash node. For best privacy it's recommended to run your own node. \
+                        to a Loki node. For best privacy it's recommended to run your own node. \
                         <br> \
                         <br> \
                         If you don't have the option to run your own node, there's an option to connect \
@@ -222,7 +222,7 @@ ColumnLayout {
         WarningBox {
             Layout.bottomMargin: 6 * scaleRatio
             Layout.maximumWidth: 620 * scaleRatio
-            text: qsTr("To find other remote nodes, type 'XtendCash remote node' into your favorite search engine. Please ensure the node is run by a trusted third-party.") + translationManager.emptyString
+            text: qsTr("To find other remote nodes, type 'Loki remote node' into your favorite search engine. Please ensure the node is run by a trusted third-party.") + translationManager.emptyString
         }
 
         Text {

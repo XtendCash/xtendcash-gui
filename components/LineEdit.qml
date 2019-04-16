@@ -190,7 +190,7 @@ Item {
             anchors.topMargin: 8 * scaleRatio
             anchors.left: parent.left
             anchors.leftMargin: 12 * scaleRatio
-            source: "../images/XtendIcon-28x28.png"
+            source: "../images/LokiIcon-28x28.png"
             visible: false
         }
 

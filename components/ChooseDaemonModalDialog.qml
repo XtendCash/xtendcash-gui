@@ -79,7 +79,7 @@ Item {
             Layout.leftMargin: inactiveOverlay.width * 0.075 // TODO(doyle): I cant get this to horizontally align. help me pls
 
             Label {
-                text: qsTr("Please choose how to connect to the XtendCash Blockchain")
+                text: qsTr("Please choose how to connect to the Loki Blockchain")
                 anchors.left: parent.left
                 Layout.fillWidth: true
                 Layout.alignment: Qt.AlignHCenter

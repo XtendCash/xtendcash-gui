@@ -35,7 +35,7 @@ import QtQuick 2.2
 import QtQuick.Controls 1.4
 import QtQuick.Layouts 1.1
 import QtGraphicalEffects 1.0
-import XtendComponents.Wallet 1.0
+import LokiComponents.Wallet 1.0
 
 import "./pages"
 import "./pages/settings"
@@ -169,7 +169,7 @@ Rectangle {
         anchors.left: parent.left
         anchors.right: parent.right
 
-        Rectangle { height: 4; width: parent.width; color: "#4298f4" }
+        Rectangle { height: 4; width: parent.width; color: "#008522" }
     }
 
     ColumnLayout {

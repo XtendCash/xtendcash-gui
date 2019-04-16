@@ -2,13 +2,13 @@
 # NOTE: This downloads Qt and builds it statically, so this can take a long time
 
 # To run this, execute in the root of the repository
-#    docker build -t Xtend-gui-image .
+#    docker build -t loki-gui-image .
 
 # Then execute the script in the root of the repository to copy out the release
 # binaries into build/release/bin
 #    ./collect_from_docker_container.sh
 
-# This produces a Xtend-wallet-gui binary with the following dependencies
+# This produces a loki-wallet-gui binary with the following dependencies
 # linux-vdso.so.1
 # libxcb-glx.so.0
 # libX11-xcb.so.1
