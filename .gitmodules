@@ -1,2 +1,3 @@
 [submodule "xtendcash"]
 	path = xtendcash
+	url = https://github.com/xtendcash/xtendcash
