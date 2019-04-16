@@ -70,8 +70,8 @@ fi
 source ./utils.sh
 pushd $(pwd)
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-LOKI_DIR=loki
-LOKID_EXEC=lokid
+XTEND_DIR=xtendcash
+XTENDD_EXEC=xtendcashd
 
 MAKE='make'
 if [[ $platform == *bsd* ]]; then
@@ -98,9 +98,9 @@ if [ "$ANDROID" != true ] && ([ "$platform" == "linux32" ] || [ "$platform" == "
 fi
 
 if [ "$platform" == "darwin" ]; then
-    BIN_PATH=$BIN_PATH/loki-wallet-gui.app/Contents/MacOS/
+    BIN_PATH=$BIN_PATH/xtend-wallet-gui.app/Contents/MacOS/
 elif [ "$platform" == "mingw64" ] || [ "$platform" == "mingw32" ]; then
-    LOKID_EXEC=lokid.exe
+    XTENDD_EXEC=xtendcashd.exe
 fi
 
 # force version update
@@ -108,25 +108,25 @@ git fetch --tags --force
 get_tag
 echo "var GUI_VERSION = \"$TAGNAME\"" > version.js
 
-pushd "$LOKI_DIR"
+pushd "$XTEND_DIR"
 get_tag
 popd
-echo "var GUI_LOKI_VERSION = \"$TAGNAME\"" >> version.js
+echo "var GUI_XTEND_VERSION = \"$TAGNAME\"" >> version.js
 
 cd build
-$QMAKE ../loki-wallet-gui.pro "$CONFIG" || exit
+$QMAKE ../xtend-wallet-gui.pro "$CONFIG" || exit
 $MAKE || exit 
 
-# Copy lokid to bin folder
+# Copy xtendd to bin folder
 if [ "$platform" != "mingw32" ] && [ "$ANDROID" != true ]; then
-cp ../$LOKI_DIR/bin/$LOKID_EXEC $BIN_PATH
+cp ../$XTEND_DIR/bin/$XTENDD_EXEC $BIN_PATH
 fi
 
 make deploy
 popd
 
-cp loki_default_settings.ini build/$BIN_PATH/loki.ini
+cp xtend_default_settings.ini build/$BIN_PATH/xtend.ini
 
 if [ "$platform" == "darwin" ]; then
-    otool -l build/$BIN_PATH/loki-wallet-gui | grep sdk
+    otool -l build/$BIN_PATH/xtend-wallet-gui | grep sdk
 fi

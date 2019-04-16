@@ -35,7 +35,7 @@ import QtQuick 2.2
 import QtQuick.Controls 1.4
 import QtQuick.Layouts 1.1
 import QtGraphicalEffects 1.0
-import LokiComponents.Wallet 1.0
+import XtendComponents.Wallet 1.0
 
 import "./pages"
 import "./pages/settings"
