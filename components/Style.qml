@@ -10,11 +10,11 @@ QtObject {
 
     property string grey: "#404040"
 
-    property string heroGreen: "#008522"
-    property string heroGreenHovered: "#006E1C"
+    property string heroGreen: "#3e83f2"
+    property string heroGreenHovered: "#256fe8"
 
-    property string lightGreen: "#78BE20"
-    property string lightGreenHovered: "#6CAC1E"
+    property string lightGreen: "#2958a5"
+    property string lightGreenHovered: "#2f5593"
 
     property string darkTurquoise: "#005f61"
     property string darkNavy: "#00263a"

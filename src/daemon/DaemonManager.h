@@ -47,7 +47,7 @@ private:
     static QStringList m_clArgs;
     QProcess *m_daemon;
     bool initialized = false;
-    QString m_lokid;
+    QString m_xtendcashd;
     bool m_has_daemon = true;
     bool m_app_exit = false;
 

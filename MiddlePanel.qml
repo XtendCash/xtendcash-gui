@@ -169,7 +169,7 @@ Rectangle {
         anchors.left: parent.left
         anchors.right: parent.right
 
-        Rectangle { height: 4; width: parent.width; color: "#008522" }
+        Rectangle { height: 4; width: parent.width; color: "#3e83f2" }
     }
 
     ColumnLayout {
